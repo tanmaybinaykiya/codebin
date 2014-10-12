@@ -1,0 +1,115 @@
+[14:08:49 - main] [GUI.java:2948] [WARN] - JAVA_HOME environment variable not set, Contiki motes (OS-level) may not compile
+[14:08:49 - AWT-EventQueue-0] [GUI.java:2649] [INFO] - External tools default settings: /external_tools_linux_64.config
+[14:08:49 - AWT-EventQueue-0] [GUI.java:2679] [INFO] - External tools user settings: /home/tanmay/.cooja.user.properties
+[14:08:59 - AWT-EventQueue-0] [Simulation.java:409] [INFO] - Simulation random seed: 123456
+[14:09:01 - Thread-0] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396082341517
+[14:09:01 - Thread-0] [Simulation.java:282] [FATAL] - Simulation stopped due to error: No more events
+java.lang.RuntimeException: No more events
+	at se.sics.cooja.Simulation.run(Simulation.java:263)
+	at java.lang.Thread.run(Thread.java:744)
+[14:09:03 - Thread-0] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396082343233	Duration: 1716 ms	Simulated time 0 ms	Ratio 0.0
+[14:09:16 - AWT-EventQueue-0] [GUI.java:3887] [WARN] - Path is not portable: '/opt/tinyos-2.x/apps/Blink/build/telosb/main.exe
+[14:09:19 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/Blink/build/telosb/main.exe
+[14:09:28 - AWT-EventQueue-0] [SkyButton.java:103] [WARN] - Not implemented
+[14:09:31 - Thread-2] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396082371559
+[14:09:43 - AWT-EventQueue-0] [SkyButton.java:103] [WARN] - Not implemented
+[14:09:50 - AWT-EventQueue-0] [SkyButton.java:103] [WARN] - Not implemented
+[14:09:58 - Thread-2] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396082398749	Duration: 27190 ms	Simulated time 7900085 ms	Ratio 290.5511217359323
+[14:10:00 - Thread-3] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396082400965
+[14:10:00 - Thread-3] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396082400967	Duration: 2 ms	Simulated time 7900086 ms	Ratio 3950043.0
+[14:10:02 - Thread-4] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396082402232
+[14:10:02 - Thread-4] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396082402235	Duration: 3 ms	Simulated time 7900087 ms	Ratio 2633362.3333333335
+[14:10:02 - Thread-5] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396082402950
+[14:10:02 - Thread-5] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396082402952	Duration: 2 ms	Simulated time 7900088 ms	Ratio 3950044.0
+[14:13:50 - AWT-EventQueue-0] [Simulation.java:409] [INFO] - Simulation random seed: 123456
+[14:14:36 - AWT-EventQueue-0] [GUI.java:3887] [WARN] - Path is not portable: '/opt/tinyos-2.x/apps/tutorials/BlinkToRadio/build/telosb/main.exe
+[14:14:39 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/BlinkToRadio/build/telosb/main.exe
+[14:14:46 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/BlinkToRadio/build/telosb/main.exe
+[14:14:54 - AWT-EventQueue-0] [SkyButton.java:103] [WARN] - Not implemented
+[14:14:59 - AWT-EventQueue-0] [SkyButton.java:103] [WARN] - Not implemented
+[14:15:04 - Thread-6] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396082704758
+[14:15:06 - Thread-6] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396082706327	Duration: 1569 ms	Simulated time 162046 ms	Ratio 103.2797960484385
+[14:15:08 - Thread-7] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396082708049
+[14:15:11 - Thread-7] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396082711452	Duration: 3403 ms	Simulated time 165448 ms	Ratio 48.618277990008814
+[14:29:46 - AWT-EventQueue-0] [Simulation.java:409] [INFO] - Simulation random seed: 123456
+[14:30:05 - AWT-EventQueue-0] [GUI.java:3887] [WARN] - Path is not portable: '/opt/tinyos-2.x/apps/Blink/build/telosb/main.exe
+[14:30:07 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/Blink/build/telosb/main.exe
+[14:30:18 - Thread-8] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396083618497
+[14:30:20 - Thread-8] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396083620024	Duration: 1527 ms	Simulated time 1968337 ms	Ratio 1288.178664921466
+[14:30:34 - Thread-9] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396083634523
+[14:30:39 - Thread-9] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396083639348	Duration: 4825 ms	Simulated time 10526261 ms	Ratio 2181.6084974093264
+[14:30:43 - Thread-10] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396083643049
+[14:31:10 - Thread-10] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396083670575	Duration: 27526 ms	Simulated time 10553786 ms	Ratio 383.4115381820824
+[14:32:10 - Thread-11] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396083730385
+[14:32:13 - AWT-EventQueue-0] [SkyButton.java:103] [WARN] - Not implemented
+[14:32:23 - Thread-11] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396083743685	Duration: 13300 ms	Simulated time 10567085 ms	Ratio 794.5176691729323
+[14:32:27 - AWT-EventQueue-0] [Simulation.java:409] [INFO] - Simulation random seed: 123456
+[14:32:44 - AWT-EventQueue-0] [GUI.java:3887] [WARN] - Path is not portable: '/opt/tinyos-2.x/apps/tutorials/BlinkToRadio/build/telosb/main.exe
+[14:32:52 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/BlinkToRadio/build/telosb/main.exe
+[14:32:53 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/BlinkToRadio/build/telosb/main.exe
+[14:33:03 - AWT-EventQueue-0] [SkyButton.java:103] [WARN] - Not implemented
+[14:33:15 - Thread-12] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396083795394
+[14:33:35 - Thread-12] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396083815428	Duration: 20034 ms	Simulated time 3656280 ms	Ratio 182.50374363581912
+[14:33:37 - Thread-14] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396083817583
+[14:34:00 - AWT-EventQueue-0] [SkyButton.java:103] [WARN] - Not implemented
+[14:34:16 - Thread-14] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396083856388	Duration: 38806 ms	Simulated time 3872341 ms	Ratio 99.7871720867907
+[14:40:32 - AWT-EventQueue-0] [Simulation.java:409] [INFO] - Simulation random seed: 123456
+[14:40:39 - Thread-15] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084239934
+[14:40:39 - Thread-15] [Simulation.java:282] [FATAL] - Simulation stopped due to error: No more events
+java.lang.RuntimeException: No more events
+	at se.sics.cooja.Simulation.run(Simulation.java:263)
+	at java.lang.Thread.run(Thread.java:744)
+[14:40:41 - Thread-15] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084241841	Duration: 1907 ms	Simulated time 0 ms	Ratio 0.0
+[14:40:54 - AWT-EventQueue-0] [GUI.java:3887] [WARN] - Path is not portable: '/opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:40:58 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:40:58 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:41:09 - Thread-17] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084269469
+[14:41:10 - Thread-17] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084270814	Duration: 1345 ms	Simulated time 193051 ms	Ratio 143.53234200743495
+[14:41:16 - AWT-EventQueue-0] [SkyButton.java:103] [WARN] - Not implemented
+[14:41:27 - AWT-EventQueue-0] [SkyButton.java:103] [WARN] - Not implemented
+[14:41:32 - Thread-18] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084292898
+[14:41:43 - Thread-18] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084303074	Duration: 10176 ms	Simulated time 203227 ms	Ratio 19.97120676100629
+[14:45:36 - AWT-EventQueue-0] [Simulation.java:409] [INFO] - Simulation random seed: 123456
+[14:45:45 - AWT-EventQueue-0] [GUI.java:3887] [WARN] - Path is not portable: '/opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:45:50 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:45:50 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:46:02 - Thread-19] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084562014
+[14:46:05 - Thread-19] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084565332	Duration: 3318 ms	Simulated time 846273 ms	Ratio 255.05515370705245
+[14:46:10 - Thread-20] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084570901
+[14:46:25 - Thread-20] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084585307	Duration: 14406 ms	Simulated time 1651079 ms	Ratio 114.6025543138752
+[14:47:39 - AWT-EventQueue-0] [Simulation.java:409] [INFO] - Simulation random seed: 123456
+[14:47:46 - AWT-EventQueue-0] [GUI.java:3887] [WARN] - Path is not portable: '/opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:47:50 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:47:51 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:48:03 - Thread-21] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084683799
+[14:48:07 - Thread-21] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084687139	Duration: 3340 ms	Simulated time 570744 ms	Ratio 170.83029033223585
+[14:48:10 - Thread-22] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084690058
+[14:48:12 - Thread-22] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084692812	Duration: 2754 ms	Simulated time 1068539 ms	Ratio 387.9952795933188
+[14:48:51 - AWT-EventQueue-0] [Simulation.java:409] [INFO] - Simulation random seed: 123456
+[14:48:58 - AWT-EventQueue-0] [GUI.java:3887] [WARN] - Path is not portable: '/opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:49:06 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:49:06 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:49:18 - Thread-23] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084758412
+[14:49:20 - Thread-23] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084760233	Duration: 1821 ms	Simulated time 296965 ms	Ratio 163.07797913234486
+[14:49:22 - Thread-24] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084762201
+[14:49:28 - Thread-24] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084768485	Duration: 6284 ms	Simulated time 303249 ms	Ratio 48.25732017823043
+[14:50:26 - AWT-EventQueue-0] [Simulation.java:409] [INFO] - Simulation random seed: 123456
+[14:50:34 - AWT-EventQueue-0] [GUI.java:3887] [WARN] - Path is not portable: '/opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:50:38 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:50:38 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:50:46 - Thread-25] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084846332
+[14:50:46 - Thread-25] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084846976	Duration: 644 ms	Simulated time 67221 ms	Ratio 104.3804347826087
+[14:50:48 - Thread-26] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084848713
+[14:50:53 - Thread-26] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084853530	Duration: 4817 ms	Simulated time 72038 ms	Ratio 14.954951214448828
+[14:51:15 - AWT-EventQueue-0] [Simulation.java:409] [INFO] - Simulation random seed: 123456
+[14:51:21 - AWT-EventQueue-0] [GUI.java:3887] [WARN] - Path is not portable: '/opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:51:25 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:51:25 - AWT-EventQueue-0] [MspMote.java:253] [INFO] - Loading firmware from: /opt/tinyos-2.x/apps/tutorials/Lab8/build/telosb/main.exe
+[14:51:29 - Thread-27] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084889820
+[14:51:31 - Thread-27] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084891303	Duration: 1483 ms	Simulated time 984840 ms	Ratio 664.0863115306811
+[14:51:43 - Thread-28] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084903904
+[14:51:44 - Thread-28] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084904955	Duration: 1051 ms	Simulated time 1555112 ms	Ratio 1479.649857278782
+[14:51:46 - Thread-29] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084906911
+[14:52:10 - Thread-29] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084930836	Duration: 23925 ms	Simulated time 1579037 ms	Ratio 65.99945663531871
+[14:52:37 - Thread-30] [Simulation.java:243] [INFO] - Simulation main loop started, system time: 1396084957474
+[14:53:13 - Thread-30] [Simulation.java:297] [INFO] - Simulation main loop stopped, system time: 1396084993568	Duration: 36094 ms	Simulated time 1615130 ms	Ratio 44.7478805341608

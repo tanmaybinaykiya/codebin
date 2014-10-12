@@ -1,0 +1,27 @@
+/_SP_printf.c/1.1/Mon Oct 25 09:03:39 2010//
+/_SP_puts.c/1.1/Mon Oct 25 09:03:39 2010//
+/_SP_snprintf.c/1.1/Mon Oct 25 09:03:39 2010//
+/_SP_sprintf.c/1.1/Mon Oct 25 09:03:39 2010//
+/_SP_vfprintf.c/1.1/Mon Oct 25 09:03:39 2010//
+/floatio.h/1.1/Mon Oct 25 09:03:39 2010//
+/fvwrite.h/1.1/Mon Oct 25 09:03:39 2010//
+/local.h/1.1/Mon Oct 25 09:03:39 2010//
+/mbctype.h/1.1/Mon Oct 25 09:03:39 2010//
+/scanf.c/1.1/Mon Oct 25 09:03:39 2010//
+/small_dtoa.c/1.1/Mon Oct 25 09:03:39 2010//
+/small_mprec.c/1.1/Mon Oct 25 09:03:39 2010//
+/small_mprec.h/1.1/Mon Oct 25 09:03:39 2010//
+/small_strtod.c/1.1/Mon Oct 25 09:03:39 2010//
+/small_vfsscanf.c/1.1/Mon Oct 25 09:03:39 2010//
+/small_wcrtomb.c/1.1/Mon Oct 25 09:03:39 2010//
+/small_wcsrtombs.c/1.1/Mon Oct 25 09:03:39 2010//
+/small_wctomb_r.c/1.1/Mon Oct 25 09:03:39 2010//
+/sscanf.c/1.1/Mon Oct 25 09:03:39 2010//
+/swi.h/1.1/Mon Oct 25 09:03:39 2010//
+/syscalls.c/1.1/Mon Oct 25 09:03:39 2010//
+/test.c/1.1/Mon Oct 25 09:03:39 2010//
+/test_mes.c/1.1/Mon Oct 25 09:03:39 2010//
+/test_printf.c/1.1/Mon Oct 25 09:03:39 2010//
+/test_scanf.c/1.1/Mon Oct 25 09:03:39 2010//
+/vfieeefp.h/1.1/Mon Oct 25 09:03:39 2010//
+D

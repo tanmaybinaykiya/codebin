@@ -1,0 +1,10 @@
+def funct():
+	""" Func 1
+	
+	"""
+	print 'Funct 1'
+	
+print 'Main'
+funct()	
+	
+

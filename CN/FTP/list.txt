@@ -1,0 +1,8 @@
+FTPclient
+FTPclient.c
+FtPserver
+FTPserver.c
+list.txt
+server
+server.c
+server.h
