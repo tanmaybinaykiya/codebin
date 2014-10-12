@@ -1,0 +1,648 @@
+# depslib dependency file v1.0
+1324755414 source:/media/Misc/RayTracer/Camera.cpp
+	<math.h>
+	"Vector.h"
+	"Camera.h"
+	"stdio.h"
+
+1317765326 /usr/include/math.h
+	<features.h>
+	<bits/huge_val.h>
+	<bits/huge_valf.h>
+	<bits/huge_vall.h>
+	<bits/inf.h>
+	<bits/nan.h>
+	<bits/mathdef.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls.h>
+	<bits/mathinline.h>
+
+1317765287 /usr/include/features.h
+	<bits/predefs.h>
+	<sys/cdefs.h>
+	<gnu/stubs.h>
+
+1326345828 /media/Misc/RayTracer/Vector.h
+
+1324753477 /media/Misc/RayTracer/Camera.h
+
+1317765338 /usr/include/stdio.h
+	<features.h>
+	<stddef.h>
+	<bits/types.h>
+	<libio.h>
+	<stdarg.h>
+	<bits/stdio_lim.h>
+	<bits/sys_errlist.h>
+	<getopt.h>
+	<bits/stdio.h>
+	<bits/stdio2.h>
+	<bits/stdio-ldbl.h>
+
+1317765338 /usr/include/libio.h
+	<_G_config.h>
+	<stdarg.h>
+	<sys/cdefs.h>
+	<bits/stdio-lock.h>
+	<shlib-compat.h>
+	<bits/libio-ldbl.h>
+
+1317765338 /usr/include/_G_config.h
+	<bits/types.h>
+	<stddef.h>
+	<wchar.h>
+	<gconv.h>
+
+1317765346 /usr/include/wchar.h
+	<features.h>
+	<stdio.h>
+	<stdarg.h>
+	<bits/wchar.h>
+	<stddef.h>
+	<wctype.h>
+	<xlocale.h>
+	<xlocale.h>
+	<xlocale.h>
+	<wctype.h>
+	<bits/wchar2.h>
+	<bits/wchar-ldbl.h>
+
+1317765370 /usr/include/wctype.h
+	<features.h>
+	<bits/types.h>
+	<wchar.h>
+	<endian.h>
+	<xlocale.h>
+
+1317765344 /usr/include/endian.h
+	<features.h>
+	<bits/endian.h>
+	<bits/byteswap.h>
+
+1317765292 /usr/include/xlocale.h
+
+1317765289 /usr/include/gconv.h
+	<features.h>
+	<wchar.h>
+	<stddef.h>
+
+1317765356 /usr/include/getopt.h
+	<ctype.h>
+
+1317765320 /usr/include/ctype.h
+	<features.h>
+	<bits/types.h>
+	<endian.h>
+	<xlocale.h>
+
+1326348035 source:/media/Misc/RayTracer/Check.cpp
+	<iostream>
+	<cstdio>
+	"Colors.h"
+	"Check.h"
+
+1326369278 /media/Misc/RayTracer/Colors.h
+
+1326348166 /media/Misc/RayTracer/Check.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+	"Square.h"
+
+1326353828 /media/Misc/RayTracer/MyMath.h
+	<math.h>
+	"Vector.h"
+
+1326348008 /media/Misc/RayTracer/Object.h
+	<iostream>
+	<cstring>
+	"MyMath.h"
+	"Vector.h"
+	"Ray.h"
+
+1324906857 /media/Misc/RayTracer/Ray.h
+	<vector>
+	"MyMath.h"
+	"Vector.h"
+
+1326350016 /media/Misc/RayTracer/Square.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+	"Triangle.h"
+
+1326348149 /media/Misc/RayTracer/Triangle.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+
+1326362486 source:/media/Misc/RayTracer/Checkerboard.cpp
+	"mygl.h"
+	<iostream>
+	<cstdio>
+	<cassert>
+	"Colors.h"
+	"Checkerboard.h"
+
+1326346384 /media/Misc/RayTracer/mygl.h
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1295411577 /usr/include/GL/glut.h
+	"freeglut_std.h"
+
+1295411577 /usr/include/GL/freeglut_std.h
+	<Windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1312964831 /usr/include/GL/gl.h
+	"gl_mangle.h"
+	<stdlib.h>
+	<windows.h>
+	<GL/mesa_wgl.h>
+	<GL/glext.h>
+
+1312964831 /usr/include/GL/gl_mangle.h
+
+1317765333 /usr/include/stdlib.h
+	<features.h>
+	<stddef.h>
+	<bits/waitflags.h>
+	<bits/waitstatus.h>
+	<xlocale.h>
+	<sys/types.h>
+	<alloca.h>
+	<bits/stdlib.h>
+	<bits/stdlib-ldbl.h>
+
+1317765333 /usr/include/alloca.h
+	<features.h>
+	<stddef.h>
+
+1312964831 /usr/include/GL/glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1317765333 /usr/include/inttypes.h
+	<features.h>
+	<stdint.h>
+	<stddef.h>
+
+1317765333 /usr/include/stdint.h
+	<features.h>
+	<bits/wchar.h>
+	<bits/wordsize.h>
+
+1312964820 /usr/include/GL/glu.h
+	"glu_mangle.h"
+	<GL/gl.h>
+
+1312964820 /usr/include/GL/glu_mangle.h
+
+1326362287 /media/Misc/RayTracer/Checkerboard.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+	"Triangle.h"
+
+1325286075 source:/media/Misc/RayTracer/LightSource.cpp
+	"LightSource.h"
+
+1325170858 /media/Misc/RayTracer/LightSource.h
+	"MyMath.h"
+	"Sphere.h"
+
+1326362711 /media/Misc/RayTracer/Sphere.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+
+1326346323 source:/media/Misc/RayTracer/Primitives.cpp
+	"MyMath.h"
+	"Colors.h"
+	"Vector.h"
+	"Primitives.h"
+
+1316231136 /media/Misc/RayTracer/Primitives.h
+	"Vector.h"
+	"mygl.h"
+
+1325235340 source:/media/Misc/RayTracer/Ray.cpp
+	"Ray.h"
+
+1326355184 source:/media/Misc/RayTracer/RayTracer.cpp
+	<string>
+	<vector>
+	<algorithm>
+	<utility>
+	<cassert>
+	"Colors.h"
+	"RayTracer.h"
+	"bitmap_image.hpp"
+
+1325282522 /media/Misc/RayTracer/RayTracer.h
+	<string>
+	<vector>
+	"MyMath.h"
+	"Vector.h"
+	"Camera.h"
+	"Object.h"
+	"World.h"
+	"Ray.h"
+
+1325235061 /media/Misc/RayTracer/World.h
+	<cstdlib>
+	<vector>
+	"MyMath.h"
+	"Object.h"
+	"Camera.h"
+	"LightSource.h"
+
+946663200 /media/Misc/RayTracer/bitmap_image.hpp
+	<iostream>
+	<string>
+	<fstream>
+	<iterator>
+	<limits>
+	<cmath>
+	<cstdlib>
+
+1326362705 source:/media/Misc/RayTracer/Sphere.cpp
+	"mygl.h"
+	<iostream>
+	<cstdio>
+	<cassert>
+	"Sphere.h"
+
+1326350177 source:/media/Misc/RayTracer/Square.cpp
+	"mygl.h"
+	<iostream>
+	<cstdio>
+	"MyMath.h"
+	"Square.h"
+
+1326355968 source:/media/Misc/RayTracer/Triangle.cpp
+	"mygl.h"
+	<iostream>
+	<cstdio>
+	<cassert>
+	"Triangle.h"
+
+1325247584 source:/media/Misc/RayTracer/Vector.cpp
+	<math.h>
+	"Vector.h"
+
+1325235055 source:/media/Misc/RayTracer/World.cpp
+	"World.h"
+
+1326392300 source:/media/Misc/RayTracer/main.cpp
+	"mygl.h"
+	"MyMath.h"
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<string>
+	<sys/stat.h>
+	"MyMath.h"
+	"Colors.h"
+	"LightSource.h"
+	"Camera.h"
+	"Sphere.h"
+	"Triangle.h"
+	"Square.h"
+	"Check.h"
+	"Checkerboard.h"
+	"World.h"
+	"RayTracer.h"
+
+1324755414 source:/home/nautilus/RayTracer/Camera.cpp
+	<math.h>
+	"Vector.h"
+	"Camera.h"
+	"stdio.h"
+
+1326345828 /home/nautilus/RayTracer/Vector.h
+
+1324753477 /home/nautilus/RayTracer/Camera.h
+
+1326348035 source:/home/nautilus/RayTracer/Check.cpp
+	<iostream>
+	<cstdio>
+	"Colors.h"
+	"Check.h"
+
+1326369278 /home/nautilus/RayTracer/Colors.h
+
+1326348166 /home/nautilus/RayTracer/Check.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+	"Square.h"
+
+1326353828 /home/nautilus/RayTracer/MyMath.h
+	<math.h>
+	"Vector.h"
+
+1326348008 /home/nautilus/RayTracer/Object.h
+	<iostream>
+	<cstring>
+	"MyMath.h"
+	"Vector.h"
+	"Ray.h"
+
+1324906857 /home/nautilus/RayTracer/Ray.h
+	<vector>
+	"MyMath.h"
+	"Vector.h"
+
+1326350016 /home/nautilus/RayTracer/Square.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+	"Triangle.h"
+
+1326348149 /home/nautilus/RayTracer/Triangle.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+
+1326362486 source:/home/nautilus/RayTracer/Checkerboard.cpp
+	"mygl.h"
+	<iostream>
+	<cstdio>
+	<cassert>
+	"Colors.h"
+	"Checkerboard.h"
+
+1326346384 /home/nautilus/RayTracer/mygl.h
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1326362287 /home/nautilus/RayTracer/Checkerboard.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+	"Triangle.h"
+
+1325286075 source:/home/nautilus/RayTracer/LightSource.cpp
+	"LightSource.h"
+
+1325170858 /home/nautilus/RayTracer/LightSource.h
+	"MyMath.h"
+	"Sphere.h"
+
+1326362711 /home/nautilus/RayTracer/Sphere.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+
+1326346323 source:/home/nautilus/RayTracer/Primitives.cpp
+	"MyMath.h"
+	"Colors.h"
+	"Vector.h"
+	"Primitives.h"
+
+1316231136 /home/nautilus/RayTracer/Primitives.h
+	"Vector.h"
+	"mygl.h"
+
+1325235340 source:/home/nautilus/RayTracer/Ray.cpp
+	"Ray.h"
+
+1326355184 source:/home/nautilus/RayTracer/RayTracer.cpp
+	<string>
+	<vector>
+	<algorithm>
+	<utility>
+	<cassert>
+	"Colors.h"
+	"RayTracer.h"
+	"bitmap_image.hpp"
+
+1325282522 /home/nautilus/RayTracer/RayTracer.h
+	<string>
+	<vector>
+	"MyMath.h"
+	"Vector.h"
+	"Camera.h"
+	"Object.h"
+	"World.h"
+	"Ray.h"
+
+1325235061 /home/nautilus/RayTracer/World.h
+	<cstdlib>
+	<vector>
+	"MyMath.h"
+	"Object.h"
+	"Camera.h"
+	"LightSource.h"
+
+946663200 /home/nautilus/RayTracer/bitmap_image.hpp
+	<iostream>
+	<string>
+	<fstream>
+	<iterator>
+	<limits>
+	<cmath>
+	<cstdlib>
+
+1326362705 source:/home/nautilus/RayTracer/Sphere.cpp
+	"mygl.h"
+	<iostream>
+	<cstdio>
+	<cassert>
+	"Sphere.h"
+
+1326350177 source:/home/nautilus/RayTracer/Square.cpp
+	"mygl.h"
+	<iostream>
+	<cstdio>
+	"MyMath.h"
+	"Square.h"
+
+1326355968 source:/home/nautilus/RayTracer/Triangle.cpp
+	"mygl.h"
+	<iostream>
+	<cstdio>
+	<cassert>
+	"Triangle.h"
+
+1325247584 source:/home/nautilus/RayTracer/Vector.cpp
+	<math.h>
+	"Vector.h"
+
+1325235055 source:/home/nautilus/RayTracer/World.cpp
+	"World.h"
+
+1324755414 source:/home/nautilus/Desktop/RayTracer/Camera.cpp
+	<math.h>
+	"Vector.h"
+	"Camera.h"
+	"stdio.h"
+
+1326345828 /home/nautilus/Desktop/RayTracer/Vector.h
+
+1324753477 /home/nautilus/Desktop/RayTracer/Camera.h
+
+1326348035 source:/home/nautilus/Desktop/RayTracer/Check.cpp
+	<iostream>
+	<cstdio>
+	"Colors.h"
+	"Check.h"
+
+1326369278 /home/nautilus/Desktop/RayTracer/Colors.h
+
+1326348166 /home/nautilus/Desktop/RayTracer/Check.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+	"Square.h"
+
+1326353828 /home/nautilus/Desktop/RayTracer/MyMath.h
+	<math.h>
+	"Vector.h"
+
+1326348008 /home/nautilus/Desktop/RayTracer/Object.h
+	<iostream>
+	<cstring>
+	"MyMath.h"
+	"Vector.h"
+	"Ray.h"
+
+1324906857 /home/nautilus/Desktop/RayTracer/Ray.h
+	<vector>
+	"MyMath.h"
+	"Vector.h"
+
+1326350016 /home/nautilus/Desktop/RayTracer/Square.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+	"Triangle.h"
+
+1326348149 /home/nautilus/Desktop/RayTracer/Triangle.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+
+1326362486 source:/home/nautilus/Desktop/RayTracer/Checkerboard.cpp
+	"mygl.h"
+	<iostream>
+	<cstdio>
+	<cassert>
+	"Colors.h"
+	"Checkerboard.h"
+
+1326346384 /home/nautilus/Desktop/RayTracer/mygl.h
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1326362287 /home/nautilus/Desktop/RayTracer/Checkerboard.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+	"Triangle.h"
+
+1325286075 source:/home/nautilus/Desktop/RayTracer/LightSource.cpp
+	"LightSource.h"
+
+1325170858 /home/nautilus/Desktop/RayTracer/LightSource.h
+	"MyMath.h"
+	"Sphere.h"
+
+1326362711 /home/nautilus/Desktop/RayTracer/Sphere.h
+	"MyMath.h"
+	"Vector.h"
+	"Object.h"
+
+1326346323 source:/home/nautilus/Desktop/RayTracer/Primitives.cpp
+	"MyMath.h"
+	"Colors.h"
+	"Vector.h"
+	"Primitives.h"
+
+1316231136 /home/nautilus/Desktop/RayTracer/Primitives.h
+	"Vector.h"
+	"mygl.h"
+
+1325235340 source:/home/nautilus/Desktop/RayTracer/Ray.cpp
+	"Ray.h"
+
+1326355184 source:/home/nautilus/Desktop/RayTracer/RayTracer.cpp
+	<string>
+	<vector>
+	<algorithm>
+	<utility>
+	<cassert>
+	"Colors.h"
+	"RayTracer.h"
+	"bitmap_image.hpp"
+
+1325282522 /home/nautilus/Desktop/RayTracer/RayTracer.h
+	<string>
+	<vector>
+	"MyMath.h"
+	"Vector.h"
+	"Camera.h"
+	"Object.h"
+	"World.h"
+	"Ray.h"
+
+1325235061 /home/nautilus/Desktop/RayTracer/World.h
+	<cstdlib>
+	<vector>
+	"MyMath.h"
+	"Object.h"
+	"Camera.h"
+	"LightSource.h"
+
+946663200 /home/nautilus/Desktop/RayTracer/bitmap_image.hpp
+	<iostream>
+	<string>
+	<fstream>
+	<iterator>
+	<limits>
+	<cmath>
+	<cstdlib>
+
+1326362705 source:/home/nautilus/Desktop/RayTracer/Sphere.cpp
+	"mygl.h"
+	<iostream>
+	<cstdio>
+	<cassert>
+	"Sphere.h"
+
+1326350177 source:/home/nautilus/Desktop/RayTracer/Square.cpp
+	"mygl.h"
+	<iostream>
+	<cstdio>
+	"MyMath.h"
+	"Square.h"
+
+1326355968 source:/home/nautilus/Desktop/RayTracer/Triangle.cpp
+	"mygl.h"
+	<iostream>
+	<cstdio>
+	<cassert>
+	"Triangle.h"
+
+1325247584 source:/home/nautilus/Desktop/RayTracer/Vector.cpp
+	<math.h>
+	"Vector.h"
+
+1325235055 source:/home/nautilus/Desktop/RayTracer/World.cpp
+	"World.h"
+
