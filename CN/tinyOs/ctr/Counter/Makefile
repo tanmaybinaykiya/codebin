@@ -1,3 +1,0 @@
-COMPONENT=Counter
-include ../Makerules
-
