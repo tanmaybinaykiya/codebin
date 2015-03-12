@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TEDx BITSGoa		</title>
+			<meta name="design"  content="Tanmay Binaykiya">
+			<meta name="develop"  content="Tanmay Binaykiya">
+			<meta name="title"  content="TED, TEDX, BITS, Goa">
+			<meta name="location"  content="BITS GOA, BITS Pilani">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+			<meta property="og:title" content="Home" />
+			<meta property="og:description" content="February 2013 BITS Pilani K K Birla Goa Campus When? Feb, 2012 Where? Auditorium BITS Pilani K K Birla Goa Campus Near Zuarinagar, NH 17B Goa 403726 What? With the theme of Be YOU, TEDx BITSGoa presents to you an extraordinary range of awe inspiring stories from the most...  Read more" />	
+		
+		 	<script type="tex<meta name="About" content="TED, TEDX" />t/javascript" src="scripts/jquery-1.8.2.min.js"></script>
+		  	<script type="text/javascript" src="scripts/s3Slider.js"></script>
+		  	<script type="text/javascript">
+	    	$(document).ready(function() {
+	      	$('#slider1').s3Slider({
+	         	timeOut: 2000 
+	        });
+	    	});
+			</script>
+		 	<script type="text/javascript" src="scripts/script.js"></script>
+			<!-- <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:700' rel='stylesheet' type='text/css'> -->
+			<link rel="stylesheet" type="text/css" href="styles/styles.css">
+			<link rel="stylesheet" type="text/css" href="styles/slideStyles.css">
+			<link rel="shortcut icon" href="img/favicon.png">
+		
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="navbar">
+				<a id="logoleft" href="#"></a>
+				<div id="navLinks">
+					<a id="mainLink" href="#main">Home</a>
+					<!-- <a id="scheduleLink" href="#schedule">Schedule</a> -->
+					<a id="speakersLink" href="#speakers">Speakers</a>
+					<a id="teamLink" href="#team">Team</a>
+					<!-- <a id="webcastLink" href="#webcast">Webcast</a> -->
+					<a href="http://www.tedxbitsgoa.wordpress.com">Blog</a>
+					<a id="regLink" href="#reg">Register</a>
+				</div>
+				<div id="socialMedia">
+					<a id="fb" href="http://www.facebook.com/tedxbitsgoa"></a>
+					<a id="twitter" href="http://www.twitter.com/tedxbitsgoa"></a>
+				</div>	
+			</div>
+
+
+			<div id="contentArea">
+
+				<div id="main" class="page">
+					<a id="mainLogo" href="#"></a>
+					<div id="slider1">
+						 <ul id="slider1Content">
+				            <li class="slider1Image">
+				                <img src="img/slideshow/dummy.jpg" alt="1" />
+				                <span class="left"><strong>Title text 1</strong><br />Content text...</span></li>
+				            <li class="slider1Image">
+				                <img src="img/slideshow/dummy.jpg" alt="2" />
+				                <span class="right"><strong>Title text 2</strong><br />Content text Content text...</span></li>
+				            <li class="slider1Image">
+				                <img src="img/slideshow/dummy.jpg" alt="3" />
+				                <span class="right"><strong>Title text 3</strong><br />Content text...</span></li>
+				            <li class="slider1Image">
+				                <img src="img/slideshow/dummy.jpg" alt="4" />
+				                <span class="left"><strong>Title text 4</strong><br />Content text...</span></li>
+				            <li class="slider1Image">
+				                <img src="img/slideshow/dummy.jpg" alt="5" />
+				                <span class="right"><strong>Title text 5</strong><br />Content text...</span></li>
+				            <div class="clear slider1Image"></div>
+			        	</ul>
+
+					</div>
+						<div id="mainPagecontent">
+							<span><b>What is TEDxBITSGoa?</b></span><span>TEDxBITSGoa aims at bringing forth the most basic form of effective communication. It often takes an idea a lot of time to seep into our mind. The more it`s associated to the day-to-day life of a person, the easier it is for the latter to grasp the essence of an idea. And that`s how the art of story-telling came into existence.</span>
+							<span>With the upcoming edition of TEDxBITSGoa, we want to put forward our love for stories that ought to be heard, ought to be listened to, and ought to be learned from. We will bring forward powerful stories worth listening to. Stories that haven`t only affected the society, but stories that have altered the very fabric of mankind as we know it.</span>
+							<span><b>What is TEDx?</b></span>
+							<span>In the spirit of ideas worth spreading, TED has created a program called TEDx.TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. Our event is called TEDx[name], where x = independently organized TED event. At our TEDx[name] event, TEDTalks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TEDx program, but individual TEDx events, including ours, are self-organized.</span>
+						</div>
+					</div>
+				<!-- <div id="team" class="page">
+					<div id="teamPageContent">
+						<span class="pageTitle">The Team</span>
+
+
+
+					</div>
+				</div> -->
+
+
+
+				<!-- 
+				<div id="Us"  class="page">
+					<span class="pageTitle" >Hello There!</span>
+					<div id="usPagecontent">
+						
+					</div>
+				</div>	 -->
+
+				
+			</div>
+			<div id="footer">
+					<span style="float:left; margin-left:325px;">&copy;2013 TEDxBITSGoa | This independently organized TEDx event is operated under license from TED.</span>
+					<div style="float:right;"><span style="float:left;">Website by &nbsp; </span>
+						<a href="http://www.btanmay.wordpress.com">Tanmay Binaykiya</a>
+					</div>
+		
+			</div>	
+		</div>
+	</body>
+
+
+
+</html>

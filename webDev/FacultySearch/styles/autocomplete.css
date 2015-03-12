@@ -1,0 +1,39 @@
+#searchField {
+	width: 200px;
+}
+
+#results, #quickResults {
+	margin:0 auto;
+	
+	color:#000;
+	border: 1px solid #BFBFBF;
+	border-bottom: 0px;
+	font-size: 16px;
+	font-family: arial;
+	padding: 0px;
+	display: none;
+}
+
+
+#results div, #quickResults div {
+    border-bottom: 1px solid #BFBFBF;
+    padding: 3px;
+    
+}
+
+#results .selected, #quickResults .selected {
+	background-color: #eee;
+	border-radius: 0px;
+	font-size: 16px;
+	color: #000;	
+}
+
+#results .unselected, #quickResults .unselected{
+	background-color: #fff;
+	color: #666;
+	font-size: 16px;
+	
+}
+#quickResults .selected, #quickResults .unselected{
+	font-size: 12px;
+}

@@ -1,0 +1,80 @@
+* {
+    font-family: 'Helvetica',' FreeSans', 'Arial',  sans-serif;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+a {
+text-decoration:none;
+}
+body
+{
+background:url("../img/registerbg.jpg")  no-repeat;
+background-attachment:fixed;
+}
+#mainreg
+{
+}
+#firstreg
+{
+background:rgba(255,255,255,0.5);
+top: 120px;
+left: 50px;
+padding:30px;
+border-radius:15px;
+width:500px;
+}
+#secondreg
+{
+background:rgba(255,255,255,0.5);
+position: absolute;
+top: 420px;
+left: 50px;
+padding:30px;
+border-radius:15px;
+width:500px;
+}
+#thirdreg
+{
+background:rgba(255,255,255,0.5);
+position: absolute;
+top: 120px;
+right: 50px;
+padding:30px;
+border-radius:15px;
+width:565px;
+}
+#fourthreg
+{
+background:rgba(255,255,255,0.5);
+position: absolute;
+top: 420px;
+right: 50px;
+padding:30px;
+border-radius:15px;
+width:565px;
+}
+
+#updateerror{
+background:rgba(255,255,0,0.9);
+position:absolute;
+top:0px;
+left:500px;
+padding-left:10px;
+padding-right:10px;
+}
+#center{
+background:rgba(255,255,255,0.5);
+position: absolute;
+top: 200px;
+left: 430px;
+padding:30px;
+border-radius:15px;
+width:565px;
+text-align:justify;
+}
+#footer{
+    position:absolute;
+    height:15px;
+    bottom:10px;
+}

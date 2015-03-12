@@ -1,0 +1,187 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #000000;
+	background-image: url('../img/top_background.jpg');
+	background-repeat: repeat-x;
+	color: #ffffff;
+	font-family: Helvetica, Tahoma;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	line-height: 18px;
+	text-align: justify;
+}
+
+a {
+	color: #34c1ce;
+}
+
+a:hover {
+	color: #34c1ce;
+	text-decoration: none;
+}
+
+a img {
+	border: 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+#fixed-width-wrapper {
+	width: 990px;
+}
+
+#banner {
+	background-image: url('../img/top_banner.jpg');
+	background-repeat: no-repeat;
+	min-height: 200px;
+}
+
+#content {
+	float: left;
+	text-align: left;
+	width: 675px;
+}
+
+#featured {
+	text-align: center;
+}
+
+#content .featured {
+	border: 3px solid #999999;
+}
+
+#content p.content-section {
+	border-left: 2px solid #333333;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+#navbar {
+	float: right;
+	text-align: right;
+	width: 275px;
+}
+
+#navbar p {
+	margin-bottom: 20px;
+}
+
+#navbar p.navbar-link-list a {
+	border-bottom: 1px solid #000000;
+	color: #eaeaea;
+	display: inline-block;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+#navbar p.navbar-link-list a:hover {
+	border-bottom: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+/* Website Footer Starts */
+#footer {
+	font-size: 12px;
+	padding-top: 8px;
+	padding-bottom: 16px;
+}
+
+#bits {
+	float: left;
+	text-align: left;
+}
+
+#depp {
+	float: right;
+	text-align: right;
+}
+
+#bits-logo,#bits-link,#depp-logo,#depp-link {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#bits-link a,#depp-link a {
+	border: none !important;
+	color: #cccccc !important;
+	text-decoration: none;
+}
+
+#bits-link a:hover,#depp-link a:hover {
+	color: #ffffff !important
+}
+
+#bits-logo {
+	padding-right: 10px
+}
+
+#depp-logo {
+	padding-left: 10px
+}
+/* Website Footer Ends */
+
+#flashMessage
+	{border:1px solid #aaaaaa;
+	 background-color:#333333;
+	 color:#eaeaea;
+	 font-size:14px;
+	 margin-top:5px; margin-bottom:5px;
+	 padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:10px;}
+	 
+/* Register Section */
+form
+	{padding:0;
+	 margin:0;}
+.form
+    {width:420px}
+.form .input, .form .select, .form .submit
+	{clear:both}
+.form label, .form input, .form select, .error-message, .form textarea
+	{margin-top:5px; margin-bottom:5px;}
+.form label
+	{float:left;
+	 padding-right:20px;
+	 text-align:right;
+	 width:100px;}
+.form input, .form select, .form textarea
+    {background-color:#cccccc;
+     border:2px solid #666666;}
+.form input:focus, .form select:focus, .form textarea:focus
+    {background-color:#ffffff;}
+.form .submit, .form .error-message
+    {float:right;
+     text-align:left;
+     width:300px;}
+.form .submit input
+    {background-color:#f2f2f2 !important;
+     margin-top:8px;
+     padding-top:5px; padding-right:20px; padding-bottom:5px; padding-left:20px;}
+.form input.image-button
+    {background-color:transparent !important;
+     margin-top:0px;
+     padding-top:0px; padding-right:2px; padding-bottom:0px; padding-left:0px;}
+     
+/* Long-Forms Section */
+.long-form label, .long-form input, .long-form select, .long-form .error-message {
+	display: block;
+}
+.long-form label, .long-form .submit {
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+.long-form fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+.long-form legend {
+	font-size: 16px;
+	font-weight: bold;
+}

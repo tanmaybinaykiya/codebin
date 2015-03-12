@@ -1,0 +1,255 @@
+/*
+  object.c
+    Nate Robins, 1997
+	 
+    Tool for teaching about OpenGL projections.
+
+	 Modified by Brandon McPhail, 2003
+*/
+
+
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <string.h>
+//#include <GL/glut.h>
+#include "SubdivideComplete.h"
+
+
+GLboolean world_draw = GL_TRUE;
+WingedEdge* we = NULL; /* our new model (formerly pmodel) */
+GLint selection = 0;
+
+void redisplay_all(void);
+void setTitle(char* filename);
+
+GLuint window, screen;
+GLuint sub_width = 512, sub_height = 512;
+int last_x, last_y, spin_x, spin_y;
+int wire = 0;
+int material = 0;
+int animate = 0;
+char *filename;
+
+GLvoid *font_style = GLUT_BITMAP_TIMES_ROMAN_10;
+
+void setfont(char* name, int size) {
+    font_style = GLUT_BITMAP_HELVETICA_10;
+    if (strcmp(name, "helvetica") == 0) {
+        if (size == 12) 
+            font_style = GLUT_BITMAP_HELVETICA_12;
+        else if (size == 18)
+            font_style = GLUT_BITMAP_HELVETICA_18;
+    } else if (strcmp(name, "times roman") == 0) {
+        font_style = GLUT_BITMAP_TIMES_ROMAN_10;
+        if (size == 24)
+            font_style = GLUT_BITMAP_TIMES_ROMAN_24;
+    } else if (strcmp(name, "8x13") == 0) {
+        font_style = GLUT_BITMAP_8_BY_13;
+    } else if (strcmp(name, "9x15") == 0) {
+        font_style = GLUT_BITMAP_9_BY_15;
+    }
+}
+
+void drawstr(GLuint x, GLuint y, char* format, ...) {
+    va_list args;
+    char buffer[255], *s;
+    
+    va_start(args, format);
+    vsprintf_s(buffer, format, args);
+    va_end(args);
+    
+    glRasterPos2i(x, y);
+    for (s = buffer; *s; s++)
+        glutBitmapCharacter(font_style, *s);
+}
+
+void drawmodel(void) {
+	if (!we){
+		we = readOBJ("data/top.obj"); 
+		if (!we) exit(0);
+		unitize(we);
+		facetNormals(we);
+	}
+    
+	if (wire) {
+		wireObject(we);
+	} else {
+		flatObject(we);
+	}
+}
+
+void main_reshape(int width,  int height) {
+    glViewport(0, 0, width, height);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    gluOrtho2D(0, width, height, 0);
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
+    
+#define GAP  25             /* gap between subwindows */
+    sub_width = (width-GAP*2);
+    sub_height = (height-GAP*2);
+    
+    glutSetWindow(screen);
+    glutPositionWindow(GAP, GAP+GAP/2);
+    glutReshapeWindow(sub_width, sub_height);
+}
+
+void main_display(void) {
+    glClearColor(0.8, 0.8, 0.8, 0.0);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glColor3ub(0, 0, 0);
+    setfont("helvetica", 12);
+	drawstr(GAP,GAP-5, "[W] -- Wireframe      [ L ] -- Loop subdivision     [ S ] -- subdivide");
+    drawstr(GAP, GAP+10, "[ B ] ball.obj      [ T ] top.obj");
+    glutSwapBuffers();
+}
+
+void screen_reshape(int width, int height) {
+    glViewport(0, 0, width, height);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    glOrtho(-1.0,1.0,-1.0,1.0,1.0,3.5);
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
+    gluLookAt(0.0,0.0,2.0,0.0,0.0,0.0,0.0, 1.0, 0.0);
+    glClearColor(0.2, 0.2, 0.2, 0.0);
+    glEnable(GL_DEPTH_TEST);
+    glEnable(GL_LIGHTING);
+    glEnable(GL_LIGHT0);
+}
+
+void screen_display(void) {
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	glMatrixMode(GL_MODELVIEW);
+	glPushMatrix();
+	glRotatef((float)spin_x,0.0,1.0,0.0);
+	glRotatef((float)spin_y,1.0,0.0,0.0);
+	drawmodel();
+	glPopMatrix();
+	glutSwapBuffers();
+}
+
+void screen_mouse(int button, int state, int x, int y) {
+    if (state & GLUT_UP) {
+        if (x != last_x || y != last_y) {
+            animate = 1;
+        }
+    } else {
+        animate = 0;
+        last_x = x;
+        last_y = y;
+    }
+    redisplay_all();
+}
+
+void screen_motion(int x, int y) {
+    spin_x += x-last_x;
+    spin_y += y-last_y;
+    last_x = x;
+    last_y = y;
+    redisplay_all();
+}
+
+void screen_keyboard(unsigned char key, int x, int y) {
+	char* name = 0;
+	Vertex* vertex;
+	long lines = 0;
+	
+	switch (key) {
+
+		case 'W':
+		case 'w':
+			wire = !wire;
+			break;
+
+		case 'T':
+		case 't':
+			name = "data/top.obj";
+			break;
+
+		case 'B':
+		case 'b':
+			name = "data/ball.obj";
+			break;
+
+		case 'L':
+		case 'l':
+			subdivide(we); 
+			refine(we);
+			unitize(we);
+			facetNormals(we);
+			printf("%d Doritos!\n", faceCount(we));
+			break;
+
+		case 'S':
+		case 's':
+			subdivide(we);
+			unitize(we);
+			facetNormals(we);
+			printf("%d Doritos!\n", faceCount(we));
+			break;
+
+	}
+    
+	if (name) {
+		if (we) free(we);
+		we = readOBJ(name); 
+		if (!we) exit(0);
+		unitize(we);
+		facetNormals(we);
+	}
+    
+	redisplay_all();
+}
+
+void redisplay_all(void) {
+    glutSetWindow(screen);
+    screen_reshape(sub_width, sub_height);
+    glutPostRedisplay();
+}
+
+int main(int argc, char** argv) {
+	glutInitDisplayMode(GLUT_RGB | GLUT_DEPTH | GLUT_DOUBLE);
+	glutInitWindowSize(512+GAP*3, 512+GAP*3);
+	glutInitWindowPosition(50, 50);
+	glutInit(&argc, argv);
+
+	if (argc >= 2) {
+		filename = argv[1];
+		we = readOBJ(filename); 
+		if (!we) exit(0);
+		unitize(we);
+		facetNormals(we);
+	} else {
+		filename = "data/top.obj";
+	}
+	window = glutCreateWindow("Object Viewer");
+	glutReshapeFunc(main_reshape);
+	glutDisplayFunc(main_display);
+	glutKeyboardFunc(screen_keyboard);
+	glutMouseFunc(screen_mouse);            
+	glutMotionFunc(screen_motion);            
+
+	setTitle(filename);
+	
+	screen = glutCreateSubWindow(window, GAP, GAP, 512+GAP, 512+GAP);
+	glutReshapeFunc(screen_reshape);
+	glutDisplayFunc(screen_display);
+	glutKeyboardFunc(screen_keyboard);            
+	glutMouseFunc(screen_mouse);            
+	glutMotionFunc(screen_motion);            
+	redisplay_all();
+
+	glutMainLoop();
+    
+	return 0;
+}
+
+void setTitle(char* filename) {
+	char title[256]="ObjectViewer";
+	//strcpy_s(title, "Object Viewer - ");
+	glutSetWindowTitle(strcat(title, filename));
+}

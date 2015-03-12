@@ -1,0 +1,176 @@
+#aWing, #bWing{
+    float: left;
+    padding: 10px;
+}
+#aWing{
+    clear: both;
+}
+.chamber{
+    border:solid 1px rgb(34, 114, 247);
+    background-color:rgb(75, 141, 248);
+    border-radius: 2px;
+    color: #fff;
+}
+.chamber:hover{
+    background-color: #70a5fa;
+}
+#chemDept, #midSect, #humDept, #courtyard, #mechSect,#csDept{
+    clear: both;
+    float: left;
+}
+
+#chemDept{
+    width:125px;
+    height: 498px;
+    background-color:#fff; 
+    border:solid 1px #aaa; 
+}
+#chemDept:hover{
+    border-color:#000;
+}
+#midSect{
+    border: none;
+    clear: none;
+    width:360px;
+    height: 495px;
+    padding: 0 40px;
+    background-color: 
+}
+#humDept{
+    width: 355px;
+    height: 133px;
+     background-color:#fff; 
+    border:solid 1px #aaa; 
+    padding-left: 5px;
+    padding-top: 2px;
+ }
+#humDept:hover{
+    border-color:#000;  
+}
+#courtyard{
+    width:360px;
+    margin-top: 50px;
+    height: 310px;
+
+ }
+ #mechSect{
+    clear: none;
+    width:125x;
+    height: 495px;
+}
+ #corridor{
+    clear: both;
+    float: left;
+    margin-top: 5px;
+    width:688px;
+    height:100px;
+   
+    
+ }   
+#csDept{
+    clear: both;
+    float: left;
+    margin-top: 40px;
+    width:685px;
+    height:140px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+     
+}
+#csDept:hover{
+    border-color:#000; 
+}
+#mechDept{
+    clear: both;
+    float: left;
+    background-color:#fff   ; 
+    border:solid 1px #aaa; 
+    margin-top: 55px;
+}
+#mechDept:hover{
+    border-color:#000;
+    
+}
+#eeeLabs{
+    background-color:#fff;
+    float:left;
+    margin:0 155px 0 98px;
+    width:185px;
+    height:98px;
+    border: 1px solid #aaa;
+}
+#eeeLabs:hover{
+    border: 1px solid #000;
+}
+
+.size_1{
+
+    width:35px;
+    height: 25px;
+    padding-top: 10px;
+    margin: 5px 3px 3px 6px;
+    float: left;
+}
+
+.chem1{
+    clear: both;
+    margin-left: 10px;
+}
+.chem2{
+    margin-left: 25px;
+}
+.size_2{
+    width:112px;
+    height: 68px;
+    margin: 5px 3px 3px 3px;
+    padding-top: 50px;
+    clear: both;
+    float: left;
+}
+.grayed{
+    background-color: #eee;
+   border: 1px solid #aaa;
+}
+.mech1{
+    clear: both;
+    margin-left: 08px;
+}
+.mech2{
+    margin-left: 25px;
+    margin-right: 8px;
+}
+
+.cs1{
+    clear: both;
+    margin-left: 08px;
+}
+.cs2{
+    margin-left: 25px;
+    margin-right: 8px;
+}
+.blank{
+    border: 1px solid #fff;
+}
+#leftBlock{
+    clear: both;
+    float: left;
+}
+#centralBlock{
+    float: left;
+    margin: 0 63px;
+}
+#rightBlock{
+    float: left;
+}    
+.icon-arrow-up:hover{
+   margin-top:-2px; 
+}
+.icon-arrow-left:hover{
+    padding-right:5px; 
+}
+.icon-arrow-right:hover{
+    padding-left:5px; 
+}
+i{
+ padding:0px;    
+}

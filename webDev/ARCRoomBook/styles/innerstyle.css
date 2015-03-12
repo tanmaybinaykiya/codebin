@@ -1,0 +1,11 @@
+.content
+{
+	clear:both;
+	float:left;
+	margin:10px 0;
+	width:900px;
+	background-color:#fff;
+	border:#09F solid 1px;
+	padding:20px 50px;
+	border-radius:5px;
+}

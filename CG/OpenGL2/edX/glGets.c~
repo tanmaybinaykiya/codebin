@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<GL/glut.h>
+#include<GL/gl.h>
+void display (void)
+{
+	glClearColor(0.2f, 0.2f, 0.2f, 1.0f);			//Clear the background of our window to red
+	glClear(GL_COLOR_BUFFER_BIT);					//Clear the colour buffer (more buffers later on)
+/*		glColor3f(1.0,0.0,0.0);					//Set colour rgba, 0.0 - 1.0
+		glRotatef(15,1,1,1);
+		glutWireSphere(.5,15,15);
+	glFlush();										// Flush the OpenGL buffers to the window
+*/
+}
+void keybored(unsigned char key, int x,int y){
+	printf("Key=%u, X= %d, Y= %d \n",key,x,y);
+	if(key==27){
+		printf("ESC pressed, exiting...");
+		exit(0);
+	}
+	
+}
+
+int main(int argc, char **argv){
+
+	glutInit(&argc, argv);							// Initialize GLUT
+    glutInitDisplayMode ( GLUT_RGBA | GLUT_SINGLE);	// Set up a basic display buffer (only single buffered for now)
+    glutInitWindowSize (500,500); 					// Set the width and height of the window
+    glutInitWindowPosition (0, 00);					// Set the position of the window
+    glutCreateWindow ("My First");					// Set the title for the window
+	glutDisplayFunc(display);						// Tell GLUT to use the method "display" for rendering
+//	glutReshapeFunc(reshape);						// Tell GLUT to use the method "reshape" for rendering
+	glutKeyboardFunc(keybored);
+	glutMainLoop();									// Enter GLUT's main loop
+	glutIdleFunc(display);
+	return 0;
+}

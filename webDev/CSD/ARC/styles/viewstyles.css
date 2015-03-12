@@ -1,0 +1,173 @@
+.main_window
+{
+	clear:both;
+	float:left;
+	margin-top:20px;
+}
+#awing
+{	clear:both;
+	float:left;
+	border:solid 1px #ccc;
+	border-radius:2px;
+	padding:7px;
+	width:475px;
+	margin:0 5px;
+	height 10px;
+	background-color:#f5f5f5;
+}
+#awing:hover
+{
+	border-color:#000;
+	background-color:#eee;
+}
+#cwing
+{
+	float:left;
+	border:solid 1px #ccc;
+	padding:7px;
+	width:475px;
+	height 10px;
+	margin:0 3px;
+	background-color:#f5f5f5;
+}
+#cwing:hover
+{
+	border-color:#000;
+	background-color:#eee;
+}
+
+.lower
+{
+	clear:both;
+	float:left;
+	padding:10px 10px;
+	background-color:#F1FAFE;
+	border:1px dashed #aaa;
+}
+.lower:hover
+{
+	border-color:#000;
+}
+.lowroom
+{	clear:both;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	padding:12px 0;
+	margin-bottom:10px;
+	width:100px;
+	background-color:#4B8DF8;
+	border:solid 1px #2272F7;
+	border-radius:2px;
+}
+.lowroom:hover
+{
+	background-color:#70a5fa;
+}
+.midlowroom{
+	float:left;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	padding:12px 0;
+	margin-bottom:10px;
+	margin-right:5px;
+	width:100px;
+	background-color:#4B8DF8;
+	border:solid 1px #2272F7;
+	border-radius:2px;
+}
+
+.lt
+{
+	float:left;
+	margin-right:15px;
+}
+.midlowroom:hover
+{
+	background-color:#70a5fa;
+}
+.mid
+{
+	float:left;
+	margin-right:10px;
+}
+.rt
+{
+	float:left;
+}
+#awing p 
+{
+	text-align:center;
+	color:#000;
+	font-weight:bold;
+}
+#cwing p 
+{
+	text-align:center;
+	color:#000;
+	font-weight:bold;
+}
+.upper
+{	clear:both;
+	float:left;
+	margin-top:20px;
+	padding:10px 0;
+	background-color:#D8F1FC;
+	border:1px dashed #aaa ;
+}
+.upper:hover
+{
+	border-color:#000;
+}
+.backroom
+{
+	float:left;
+	width:150px;
+	
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	padding:12px 0;
+	margin-bottom:10px;
+	background-color:#4B8DF8;
+	border:solid 1px #2272F7;
+	border-radius:2px;
+}
+.backroom:hover
+{
+	background-color:#70a5fa;
+}
+.back
+{	clear:both;
+	float:left;	
+	margin-left:160px;
+}
+.front
+{
+	clear:both;
+	float:left;	
+	margin-top:20px;
+	margin-left:13px;
+}
+.frontroom
+{
+	float:left;
+	margin-right:13px;
+	width:100px;
+	border: 1px solid #000;
+	
+	
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	padding:12px 0;
+	margin-bottom:10px;
+	background-color:#4B8DF8;
+	border:solid 1px #2272F7;
+	border-radius:2px;
+}
+.frontroom:hover
+{
+	background-color:#70a5fa;
+}

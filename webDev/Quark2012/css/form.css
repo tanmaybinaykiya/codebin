@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+
+/* Register Section */
+.form form {
+	padding: 0;
+	margin: 0;
+}
+
+.form .input, .form .select, .form .submit {
+	clear: both
+}
+
+.form label, .form input, .form select, .form .error-message, .form textarea {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.form label {
+	float: left;
+	padding-right: 20px;
+	text-align: right;
+	width: 100px;
+}
+
+.form .error-message {
+	color: #ee3333;
+	font-size: 12px;
+}
+
+.form .submit, .form .error-message {
+	float: right;
+	text-align: left;
+	width: 292px;
+}
+
+.form input.image-button {
+	background-color: transparent !important;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}

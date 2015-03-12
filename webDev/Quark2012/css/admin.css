@@ -1,0 +1,122 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #000000;
+	background-image: url('../img/top_background.jpg');
+	background-repeat: repeat-x;
+	color: #ffffff;
+	font-family: Helvetica, Tahoma;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	line-height: 18px;
+	text-align: justify;
+}
+
+a {
+	color: #34c1ce;
+}
+
+a:hover {
+	color: #34c1ce;
+	text-decoration: none;
+}
+
+a img {
+	border: 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+#fixed-width-wrapper {
+	width: 990px;
+}
+
+#content {
+	text-align: left;
+}
+
+/* Website Footer Starts */
+#footer {
+	font-size: 12px;
+	padding-top: 8px;
+	padding-bottom: 16px;
+}
+
+#bits {
+	float: left;
+	text-align: left;
+}
+
+#depp {
+	float: right;
+	text-align: right;
+}
+
+#bits-logo,#bits-link,#depp-logo,#depp-link {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#bits-link a,#depp-link a {
+	border: none !important;
+	color: #cccccc !important;
+	text-decoration: none;
+}
+
+#bits-link a:hover,#depp-link a:hover {
+	color: #ffffff !important
+}
+
+#bits-logo {
+	padding-right: 10px
+}
+
+#depp-logo {
+	padding-left: 10px
+}
+
+/* Website Footer Ends */
+#logout {
+	text-align: right;
+}
+
+#flashMessage {
+	border: 1px solid #aaaaaa;
+	background-color: #333333;
+	color: #eaeaea;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+td.actions {
+	vertical-align: middle;
+}
+
+/* Register Section */
+.form label, .form input, .form select, .error-message {
+	display: block;
+}
+.form label, .form .submit {
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+.form fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+.form legend {
+	font-size: 16px;
+	font-weight: bold;
+}

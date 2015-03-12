@@ -1,0 +1,27 @@
+AddType "text/html" .gz
+AddEncoding gzip .gz
+
+AddType "text/javascript" .gz
+AddEncoding gzip .gz
+
+AddType "text/css" .gz
+AddEncoding gzip .gz
+
+RewriteEngine on
+ReWriteCond %{HTTP:accept-encoding} gzip
+RewriteCond %{HTTP_USER_AGENT} !Safari
+ReWriteCond %{REQUEST_FILENAME} !^.+\.gz$
+RewriteCond %{REQUEST_FILENAME}.gz -f
+RewriteRule ^(.+) $1.gz [QSA,L]
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

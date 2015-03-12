@@ -1,0 +1,393 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(../img/bg_dotted.jpg) repeat;
+	!position:fixed;
+	overflow:auto;
+	width:1340px;
+    height:100%;
+    height:auto !important;
+    
+}
+
+#container {	
+    width:1340px;
+}
+
+.quark-logo {
+	position:fixed;
+	background-color:#007fa9;
+	opacity:0.5;
+	height:85px;
+	width:170px;
+	padding-top:5px;
+	padding-right:10px;
+	z-index:1001;
+	top:10px;
+	left:0px;
+	box-shadow: inset -1px 1px 2px 2px black;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	-moz-border-radius: 0px 10px 10px 0px;
+	border-radius: 0px 10px 10px 0px;
+}
+#ab{
+	position:fixed;
+	z-index:1002;
+	top:15px;
+	left:30px;
+	opacity:1.0;
+}
+.updates {
+	position:fixed;
+	opacity:0.5;
+	height:58px;
+	width:328px;
+	float:right;
+	z-index:1001;
+	top:0;
+	right:75px;
+	background:url(../img/updates.png);
+	/*background-color:#007fa9;
+	box-shadow: inset -1px 1px 2px 2px black;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	-moz-border-radius: 0px 10px 10px 0px;
+	border-radius: 0px 10px 10px 0px;*/
+}
+.main {
+    min-height: 100%;
+    height: auto;
+	background-color:black;
+	width:1250px;
+	box-shadow: 0px 0px 10px black;
+	margin-left:30px;
+    /*background:url(../img/left_bar2.png) repeat-y;*/
+}
+.column1 {   
+    margin-top: 178px;
+	position:absolute;
+}
+.innercolumn1 {
+    margin-left: 1100px;
+	padding-top: 20px;
+	width:150px;
+	min-height:180px;
+	color:white;
+	line-height:35px;
+    background-color:black;
+	z-index:100;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	-moz-border-radius: 0px 10px 10px 0px;
+	border-radius: 0px 10px 10px 0px;
+	box-shadow: 0px 0px 10px black;
+}
+.column2 {
+	color: #fff;
+	padding: 0px 0px;
+    width:1100px;   
+    margin-top: 178px;
+	position:absolute;
+	z-index:100;
+}
+
+/*Fokat bar from here*/
+
+.fokatnav {
+    background: url(../img/fokat.png);
+	background-repeat: no-repeat;
+    position:fixed;
+    top: 85px;
+	!left:800px;
+	right:180px;
+	width:327px;
+    height:47px;
+}
+
+ul.fokatnav {
+	list-style: none;
+	padding: 0 px;
+	margin: 0;
+	position:fixed;
+	/*background: #222;*/
+	font-size: 0.8em;
+    z-index: 1000;
+
+}
+ul.fokatnav li {
+	float: left;
+	margin: 0;
+	padding: 0 5px 0 0;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.fokatnav li a{
+	padding: 5px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.fokatnav li a:hover{
+	background: url(../img/topnav_hover.gif) no-repeat center top;
+}
+
+/*Fokat Bar ends here*/
+
+.navbar {
+    background: url(../img/left_bar1.jpg) repeat-x;
+    position:fixed;
+    top: 115px;
+	left:-8px;
+    !left: 191px;
+	width: 100%;
+	width:101%;
+    height:35px;
+	z-index:1000;
+}
+ul.topnav {
+	list-style: none;
+	padding: 0 230px;
+	margin: 0;
+	position:fixed;
+	width:1100px;
+	/*background: #222;*/
+	font-size: 0.8em;
+    z-index: 300;
+
+}
+ul.topnav li {
+	float: left;
+	margin: 0;
+	padding: 0 5px 0 0;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.topnav li a{
+	padding: 5px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover{
+	background: url(../img/topnav_hover.gif) no-repeat center top;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 35px;
+	float: left;
+	background: url(../img/subnav_btn.gif) no-repeat center top;
+}
+ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 35px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background: #333 url(../img/dropdown_linkbg.gif) no-repeat 10px center;
+	padding-left: 20px;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background: #222 url(../img/dropdown_linkbg.gif) no-repeat 10px center;
+}
+
+/*Bottom Nav from here*/
+
+.bottomnavbar{
+    background: url(../img/left_bar2.jpg) repeat-x;
+    position:fixed;
+    top: 150px;
+	left:-8px;
+    !left: 191px;
+	width: 100%;
+	width:101%;
+    height:35px;
+	z-index:1000;
+}
+
+ul.bottomnav {
+	list-style: none;
+	padding: 10px 60px;
+	width:1100px;
+	margin: 0;
+	position:fixed;	
+	/*background: #222;*/
+	font-size: 0.8em;
+    z-index: 300;
+
+}
+ul.bottomnav li {
+	float: left;
+	margin: 0;
+	padding: 0 5px 0 0;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.bottomnav li a{
+	padding: 0px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.bottomnav li a:hover{
+	background: url(../img/topnav_hover.gif) no-repeat center top;
+}
+ul.bottomnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 35px;
+	float: left;
+	margin-top:-5px;
+	background: url(../img/subnav_btn.gif) no-repeat center top;
+}
+ul.bottomnav li span.subhover {background-position: center bottom; cursor: pointer; margin-top:-5px;} /*--Hover effect for trigger--*/
+ul.bottomnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 25px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+}
+ul.bottomnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+}
+html ul.bottomnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background: #333 url(../img/dropdown_linkbg.gif) no-repeat 10px center;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+html ul.bottomnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background: #222 url(../img/dropdown_linkbg.gif) no-repeat 10px center;
+}
+
+/*Bottom Nav Ends*/
+
+.clear{
+    clear: both;
+}
+.hider {
+    position: fixed;
+    top: 0px;
+    left:0px;
+	z-index:1000;
+}
+#content {
+	
+
+	!border:2px solid #a1a1a1;
+	padding:10px 20px;
+	background:#fff;
+	height:auto;
+    margin-bottom: 100px;
+	font-family: "Helvetica", cursive;
+	font-size: 14px;
+    color: black;
+	box-shadow: 0px 0px 10px black;
+    
+    
+    /*z-index: 0;*/
+}
+a {
+    color:black;
+    
+}
+#footer {
+	background-image: url(../img/footer.jpg);
+	bottom: 0px;
+	color: #fff;
+	height: 50px;
+	left: 0px;
+	position: fixed;
+	width: 100%;
+	z-index:1000;
+}
+
+#footer_wrapper {
+	display: inline-block;
+	text-align: left;
+	width: 920px;
+}
+#footer_wrapper a {
+	color: #ddd;
+	text-decoration: none;
+}
+
+.info-box {
+	background-color: #fee;
+	border: 1px solid #f99;
+	padding: 3px 5px;
+}
+#authMessage, #flashMessage {
+	 background-color:#eef;
+	 border: 1px solid #99f;
+	 font-weight: bold;
+	 margin-bottom: 15px;
+	 padding: 3px 5px;
+}
+.feature {
+	border: 1px solid #333;
+}
+
+#bits_logo {
+	margin: 0px 8px;
+	vertical-align: middle;
+}
+#bits_link, #jump {
+	display: inline;
+	margin-top: 10px;
+    font-size: 0.9em;
+}
+#bits_link {
+	float: left;
+    
+}
+#jump {
+	float: right;
+	margin-right: 12px;
+}
+
+.eventsinfotab{
+    display:block;
+    cursor:pointer;
+    font-size: 13px;
+	line-height:28px;
+	width:150px;
+	color:#007fa9;
+	!background-color:#2b2b2b;
+	!border-bottom:1px solid #6e6e6e;
+}
+.eventsinfotab:hover{
+    display:block;
+    cursor:pointer;
+    font-size: 13px;
+	line-height:28px;
+	width:150px;
+    color:#fff;
+	background-color:#007fa9;
+	box-shadow: inset 0px 1px 1px 1px #000;
+}

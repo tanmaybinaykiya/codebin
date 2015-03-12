@@ -1,0 +1,22 @@
+require_once('phpmailer/class.phpmailer.php');
+        $mail = new PHPMailer(true); // the true param means it will throw exceptions on errors, which we need to catch
+        $mail->IsSMTP(); // telling the class to use SMTP
+        try {
+            $mail->Host       = "ssl://10.10.10.113"; // SMTP server
+            $mail->SMTPAuth   = true;                  // enable SMTP authentication
+            $mail->Port       = 465;                    // set the SMTP port for the GMAIL server
+            $mail->Username   = "test"; // SMTP account username
+            $mail->Password   = "passpass";        // SMTP account password
+            $mail->AddReplyTo('pradeep.kumar.bits@gmail.com', 'First Last');
+            $mail->AddAddress('f2007457@bits-goa.ac.in', 'Pradeep Kumar S');
+            $mail->SetFrom('pradeep.kumar.bits@gmail.com', 'First Last');
+            $mail->Subject = 'PHPMailer Test Subject via mail(), advanced';
+            $mail->AltBody = 'To view the message, please use an HTML compatible email viewer!';
+            $mail->MsgHTML('To view the message, please use an HTML compatible email viewer!');
+            $mail->Send();
+            echo "Message Sent OK</p>\n";
+        } catch (phpmailerException $e) {
+            echo $e->errorMessage(); //Pretty error messages from PHPMailer
+        } catch (Exception $e) {
+            echo $e->getMessage(); //Boring error messages from anything else!
+        }

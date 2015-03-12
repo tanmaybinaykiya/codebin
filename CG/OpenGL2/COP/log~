@@ -1,0 +1,56 @@
+NEW Edge
+  EdgeIndex 1, FaceEdgeIndex 0, Vertex1 0, Vertex2 0 
+NEW Edge
+  EdgeIndex 2, FaceEdgeIndex 0, Vertex1 0, Vertex2 0 
+NEW Edge
+  EdgeIndex 3, FaceEdgeIndex 0, Vertex1 0, Vertex2 0 
+NEW Edge
+  EdgeIndex 4, FaceEdgeIndex 0, Vertex1 0, Vertex2 0 
+V1 4, V2 5 
+NEW Edge
+  EdgeIndex 5, FaceEdgeIndex -1, Vertex1 0, Vertex2 0 
+V1 5, V2 1 
+NEW Edge
+  EdgeIndex 6, FaceEdgeIndex -1, Vertex1 0, Vertex2 0 
+V1 1, V2 0 
+Edge 6, V1 1, V2 0 
+V1 0, V2 4 
+NEW Edge
+  EdgeIndex 7, FaceEdgeIndex 6, Vertex1 5, Vertex2 1 
+NEW Edge
+  EdgeIndex 8, FaceEdgeIndex 6, Vertex1 5, Vertex2 1 
+NEW Edge
+  EdgeIndex 9, FaceEdgeIndex 6, Vertex1 5, Vertex2 1 
+NEW Edge
+  EdgeIndex 10, FaceEdgeIndex 6, Vertex1 5, Vertex2 1 
+NEW Edge
+  EdgeIndex 11, FaceEdgeIndex 6, Vertex1 5, Vertex2 1 
+NEW Edge
+  EdgeIndex 12, FaceEdgeIndex 6, Vertex1 5, Vertex2 1 
+NEW Edge
+  EdgeIndex 13, FaceEdgeIndex 6, Vertex1 5, Vertex2 1 
+INPUT COMPLETE 
+ 	Vertices scanned:	 8 
+ 	 Faces Scanned: 	 5 
+ Edges Scanned:	 13 
+
+Before setting t 
+vx -1.000000, vy 1.000000, vz -1.000000, ax 2.000000,bx 1.000000,cx -1.000000 
+vx 2.000000, vy 1.000000, vz -1.000000, ax 1.000000,bx 0.000000,cx 0.000000 
+ 
+T : tx 0.250000, ty -1.000000, tz -1.000000 
+
+ 	 Outside 0 and 1 
+	 vx -1.000000, vy 1.000000, vz -1.000000, ax 2.000000,bx 1.000000,cx -1.000000 
+	 vx 2.000000, vy 1.000000, vz -1.000000, ax 1.000000,bx 0.000000,cx 0.000000 
+ 
+Before setting t 
+vx -1.000000, vy 1.000000, vz -1.000000, ax 2.000000,bx 1.000000,cx -1.000000 
+vx 2.000000, vy 1.000000, vz -1.000000, ax 1.000000,bx 0.000000,cx 0.000000 
+ 
+T : tx 0.250000, ty -1.000000, tz -1.000000 
+
+ 	 Outside 0 and 1 
+	 vx -1.000000, vy 1.000000, vz -1.000000, ax 2.000000,bx 1.000000,cx -1.000000 
+	 vx 2.000000, vy 1.000000, vz -1.000000, ax 1.000000,bx 0.000000,cx 0.000000 
+ 

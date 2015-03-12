@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>HTML5 Demo</title>
+<style type="text/css">
+</style>
+<script type="text/javascript" src="jquery/jquery-1.3.2.min.js"></script> 
+<!--script type="text/javascript" src="jquery-mousewheel/jquery.mousewheel.min.js"></script-->
+<script type="text/javascript" src="jquery/slidedeck.jquery.lite.js"></script>
+<script type="text/javascript" src="jquery/all.min.js"></script>
+<script type="text/javascript" src="jquery/script.js"></script>
+<link rel="stylesheet" type="text/css" href="jquery/slidedeck.skin.css" media="screen" />
+		
+		
+<style type="text/css">
+    #slidedeck_frame 
+	{
+		width: 849px;
+        height: 150px;
+    }        
+</style>
+
+<script type="text/javascript">
+function allowDrop(ev)
+{
+ev.preventDefault();
+}
+
+function drag(ev)
+{
+ev.dataTransfer.setData("Text",ev.target.id);
+}
+
+function drop(ev)
+{
+ev.preventDefault();
+var data=document.getElementById(ev.dataTransfer.getData("Text")).getAttribute('src');
+//alert(data);
+var canvas=document.getElementById(ev.target.id);
+//alert(ev.target.id);
+var context=canvas.getContext('2d');
+var object = new Image();
+object.src = data.toString();
+//alert(data.toString());
+context.drawImage(object,0,0);
+}
+</script>
+</head>
+<body>
+<div id="wrapper" style="margin:0 233px; background-color:#fff;">
+	<div id="imageStack" style="width:900px; height:214px; clear:both; margin:0 10px; background-color:#eee; border:#aaa solid 1px;">
+	
+	<div id="slidedeck_frame" class="skin-slidedeck">
+			<dl class="slidedeck">
+				<dt>Containers</dt>
+				<dd><img id="drag1" src="images/android.jpg" draggable="true" ondragstart="drag(event)" width="100" height="69" />
+				<img id="drag1" src="images/android.jpg" draggable="true" ondragstart="drag(event)" width="100" height="69" />
+				<img id="drag3" src="images/media.svg" draggable="true" ondragstart="drag(event)" width="100" height="69" />
+				</dd>
+				<dt>Layout</dt>
+				<dd></dd>
+				<dt>Media</dt>
+				<dd>
+				<img id="drag1" src="images/android.jpg" draggable="true" ondragstart="drag(event)" width="100" height="69" />
+				<img id="drag1" src="images/android.jpg" draggable="true" ondragstart="drag(event)" width="100" height="69" />
+				<img id="drag1" src="images/android.jpg" draggable="true" ondragstart="drag(event)" width="100" height="69" />
+				</dd>
+				<dt>Buttons</dt>
+				<dd>Slide content</dd>
+				<dt>Text</dt>
+				<dd>Slide content</dd>
+				<dt>Mobile</dt>
+				<dd>Slide content</dd>
+			</dl>
+	</div>
+
+	
+	
+	</div>	
+	<script type="text/javascript">
+			$('.slidedeck').slidedeck();
+	</script>
+	<canvas id="MainCanvas" ondrop="drop(event)"
+ondragover="allowDrop(event)" style="clear:both; margin:10px; background-color:#eee; border:#aaa solid 1px;" width="900" height="450">
+	This text is displayed if your browser does not support HTML5 Canvas.
+	</canvas>
+</div>
+
+
+</div>
+</body>
+</html>

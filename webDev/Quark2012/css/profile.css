@@ -1,0 +1,54 @@
+/* Profile Section */
+.section-title
+{
+    border-bottom: 1px solid #333333;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+.section-body
+{
+    margin-bottom: 25px;
+}
+.section-label, .section-detail
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.section-label
+{
+    color: #333;
+    float: left;
+    margin-right: 20px;
+    text-align: right;
+    width: 70px;
+}
+.section-detail
+{
+    border-left: 1px solid #333333;
+    float: right;
+    text-align: left;
+    padding-left: 19px;
+    width: 300px;
+}
+.registered-event, .invited-event
+{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.registered-event-actions, .registered-event-details, .team-details, .invited-role
+{
+    margin-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.team-details li
+{
+    margin-bottom:5px
+}
+
+/* Team Invites */
+#team-invite {
+    display:none
+}

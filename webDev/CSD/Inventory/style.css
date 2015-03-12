@@ -1,0 +1,107 @@
+body
+{
+	border: solid 0.5px transparent;
+	margin: 0px;	
+	padding: 0px;
+	font-family: 'Calibri', sans-serif;
+}
+
+#header,#footer {
+	background: #0099CC;
+	text-align: center;
+	color: #f0f0f0;
+}
+
+#header img{
+float:left;
+}
+#header h1{
+padding-top:40px;
+margin-left:-50px;
+}
+
+#header {
+	min-height: 115px;
+	height:20%;
+}
+
+#topbar {
+	height: 2%;
+}
+
+#main {
+	/*min-height: 68%;*/
+	/*height:auto;*/
+	width: 100%;
+	/*height: 60%;*/
+	overflow: auto;
+}
+
+#footer {
+	height: 5%;
+	padding-top: 10px;
+	position:relative;
+	bottom:0;
+	width:100%;
+}
+
+#header img {
+	padding: 10px;
+}
+
+#header h1 {
+	margin: 0;
+}
+
+#topbar {
+	padding: 10px 0;
+	background: #eee;
+	width: 100%;
+}
+
+#topbar ul {
+	list-style: none;
+	margin: 0;
+	margin-top:-3px;
+}
+
+#topbar ul li {
+	display: inline-block;
+	padding-left:10px;
+}
+
+#topbar ul li a {
+	text-decoration: none;
+	padding: 3px;
+	background: #0099CC;
+	color: #fff;
+	position:relative;
+}
+
+#details {
+	width: 60%;
+	/*width:auto;*/
+	margin: 0 auto;
+	border: solid 2px #ddd;
+}
+
+#details tbody td {
+	border: solid 1px #ddd;
+}
+#userDetails{
+width:96%;
+padding:0 2%;
+background:#ccc;
+height:26px;
+padding-top:4px;
+}
+
+#details th{
+border:1px solid #DDDDDD;
+background:#87CEFA;
+}
+
+#details td{
+width:100px;
+font-size:12px;
+}

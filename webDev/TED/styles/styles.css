@@ -1,0 +1,450 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font:Helvetica,Arial,sans-serif;
+	font-smooth: always;
+}
+*::-webkit-selection, *::-moz-selection, *::selection
+{
+background-color:rgb(235, 38, 41);
+}
+body{
+	background-image:url('../img/bg.png'); 
+	/*height:1000px;*/
+}
+a:hover{
+	text-decoration: none;
+	color: #000;
+}
+a{
+	text-decoration: none;
+	color:rgb(235, 38, 41);
+}
+
+#wrapper{
+	clear: both;
+	float: left;
+	width:100%;
+}
+
+/*********************							NAVIGATION BAR AREA                    ***************************/
+
+#navbar{
+	clear:both;
+	float:left;
+	width:374px;
+
+	background-image:url('../img/leftNav.png'); 
+	background-repeat: no-repeat;
+	background-repeat: repeat-y;
+	background-position: -10px;
+	height:100%;
+	position: fixed;
+	/*z-index: -1;*/
+	padding-top: 50px;
+	
+}
+#logoleft{
+	position: fixed;
+	clear: both;
+	float: left;
+	background-position: -10px;
+	background-image: url('../img/logoLeft.png');
+	background-repeat: no-repeat;
+	width: 308px;
+	height: 102px;
+	margin-bottom: 20px;
+}
+#navLinks{
+	/*z-index: 1;*/
+	clear:both;
+	float: left;
+	margin-left: 00px;
+	margin-top: 120px;
+	position: fixed;
+}
+#navLinks a{
+	z-index: 1;
+	color: #fff;
+	clear: both;
+	float:left;
+	font-size:16px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-left: 50px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #fff;
+	width:240px;				
+}
+#navLinks a:first-child{
+	border-top: 1px dashed #fff;
+	padding-top: 10px;
+}
+#navLinks a:hover{
+	/*color: #fff;*/
+	padding-left:0px; 
+	padding-right: 5px;
+	/*background-color: #000;*/
+}
+#socialMedia{
+	position: fixed;
+	clear: both;
+	float: left;
+	width: 305px;
+	height: 50px;
+	margin-left:-10px;
+	margin-top: 480px;
+	border: 1px dashed #fff;
+	border-style:dashed none ; 
+	padding:05px 00px;
+}
+#socialMedia:hover{
+	/*border-style:solid none ; */
+	/*background-color:#fff; */
+}
+#fb{
+	clear: both;
+	float: left;
+	margin-left:65px;
+	
+	background-image: url('../img/fbP.png');
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	
+}
+
+#fb:hover{
+	background-image: url('../img/fbB.png');
+}
+
+#twitter{
+	float: left;
+	
+	background-image: url('../img/twitterP.png');
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	margin-left:50px;
+	
+}
+
+#twitter:hover{
+	background-image: url('../img/twitterB.png');	
+}
+
+
+/*********************							CONTENT AREA                    ***************************/
+
+#contentArea{
+	float: left;
+	padding-left: 50px;
+	
+	margin-left:325px;
+	/*background-color: rgb(235,38,41); */
+}
+.pageTitle{
+	clear: both;
+	float: left;
+	font-weight: bolder;
+	font-size: 45px;
+	color: #333;
+	text-transform: capitalize;
+}
+.pageTitle span{
+
+}
+.page{
+	clear: both;
+	float: left;
+	min-height:580px;
+	
+	padding-top: 20px;
+}
+/********************* Home page    **********************************************************************/
+#mainPage{
+	padding-top: 50px;
+}
+
+#mainLogo{
+	clear: both;
+	float: left;
+	background-image: url('../img/tedLogo.png');
+	background-repeat: no-repeat;
+	width: 607px;
+	height: 107px;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+#introVid{
+	clear: both;
+	float: left;
+	margin-top:60px;
+	width: 720px;
+	height:320px;
+	/*background-image: url('../img/dummy.jpg');
+	/*background-position: -125px -100px;*/
+	background-size:720px 400px;
+	background-repeat: no-repeat;
+	border: 10px solid rgb(235,38,41); 
+
+}
+
+
+/******************ABOUT PAGE************************/
+
+
+#aboutPagecontent{
+	clear: both;
+	float: left;
+	min-width: 600px;
+	max-width: 930px;
+	margin-top: 30px; 
+	margin-right: 20px;
+	line-height: 20px;
+	font-size:14px;
+	/*text-shadow: 2px 2px #ddd;*/
+	text-align: justify;
+}
+.redTed{
+	color:rgb(235, 38, 41);
+}
+
+#aboutPagecontent span{
+	/*clear: both;*/
+	/*float: left;*/
+	text-align: justify;
+}
+
+#aboutPagecontent ul{
+	margin-left: 10px;
+}
+#aboutPagecontent ul li{
+	list-style-type: disc;
+	margin-left: 10px;
+}
+.title{
+	font-size: 16px;
+}
+
+
+/********************* Home page ends   *******************************************************************/
+/********************* Speaker Page    *******************************************************************/
+#speakerPage{
+	
+	
+}
+.noSpeaker{
+	clear: both;
+	float: left;
+	margin-top:40px; 
+}
+.speakerDiv{
+	clear: both;
+	float: left;
+	margin-top: 30px;
+	width: 930px;
+	padding-bottom: 30px;
+	border-bottom: 1px dashed #aaa;
+}
+
+.speakerName{
+	float:left;
+	font-weight: bold;
+	font-size: 18px;
+	color: #333;
+}
+
+.speakerBio{     
+	clear: both;     
+	float: left;     
+	margin-top: 20px;
+	width: 700px;
+    margin-right: 20px;
+    line-height: 20px;
+    font-size:14px;
+    /*text-shadow: 1px 1px #ddd;*/
+    text-align: justify; 
+}
+
+.morecontent span { 
+    display: none;
+
+}
+.moreTag {
+	float: right;
+	margin-top: 20px;
+	color: rgb(235,38,41); 
+	text-decoration: none;
+
+}
+.moreTag:hover{
+	color: rgb(235,38,41); 
+
+}
+
+.speakerImgL{
+	clear: both;
+	float:left;
+	width: 150px;
+	height:200px;
+	border: 3px solid rgb(235,38,41);
+}
+.speakerContL{
+	float: left;
+	margin-left: 30px;
+}
+
+.speakerContR{
+	float: right;
+	margin-right: 30px;
+}
+.speakerImgR{
+	clear: both;
+	float:right;
+	width: 150px;
+	height:200px;
+	border: 3px solid rgb(235,38,41);
+}
+
+
+
+/********************* Speaker Page  ends ****************************************************************/
+/********************* Reg Page  ****************************************************************/
+
+#regPage{
+	
+
+}
+.ss-form-title{
+	clear: both;
+	float: left;
+	font-weight: bolder;
+	font-size: 45px;
+	color: #333;
+	text-transform: capitalize;
+}
+#regPageContent{
+	clear: both;
+	float: left;
+	width: 930px;
+	margin-top: 30px;
+	
+}
+.row{
+	clear: both;
+	float: left;
+	height: 40px;
+	margin-top: 10px;
+}
+#regPageContent label{
+	/*clear:both;*/
+	float:left;
+	width:270px;
+	font-size: 16px;
+	font-weight: 100;
+	color: #555;
+}
+
+#regPageContent input{
+	float: left;
+	border: 1px solid #aaa;
+	height: 30px;
+	font-size: 16px;
+	border-radius: 2px;
+	padding: 0 5px;
+	min-width: 200px;
+}
+#regPageContent input:hover{
+	border-color: #555; 
+}
+#submitBtn{
+	margin-left:270px;
+	background-color:rgb(235, 38, 41); 
+	border: 1px solid #f00; 
+	border-radius: 3px;
+	color:#fff; 
+	width:100px; 
+	height: 35px;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+#submitBtn:hover{
+background-color:rgb(235, 20, 25); 
+border: 1px solid rgb(235, 0, 0); 
+}
+/**************Team Page***********/
+
+#teamPageContent{
+	clear: both;
+	float: left;
+	width: 100%;
+
+}
+.member{
+	float: left;
+	width: 200px;
+	padding: 5px;
+	margin: 30px 10px 0 0;
+	
+}
+
+.member img{
+	width: 120px;
+	height:150px;
+	margin-left:35px;
+	margin-bottom: 5px;
+	
+}
+.memberName{
+	clear: both;
+	float: left;
+	width: 100%;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	text-align: center;
+} 
+.memberBio{
+	clear: both;
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+	
+} 
+
+
+
+/***********************   Footer ************************************************/
+#footer{
+	margin-top: 50px;
+	clear:both;
+	float:left;
+	height: 25px;
+	width:100%;	
+	z-index:999;
+	background-color:#eee;
+	border-top:5px solid crimson;
+	padding-top:10px;
+	
+	font-size: 12px;
+}
+#footer span{
+	color: #555;
+}
+#footer a{
+	float: left;
+	color: rgb(235,38,41);
+	margin-right: 10px;
+}
+#footer a:hover{
+	color: crimson;
+
+}

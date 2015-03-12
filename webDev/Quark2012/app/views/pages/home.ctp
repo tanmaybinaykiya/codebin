@@ -1,0 +1,4 @@
+<p><?php echo $html->image('content_welcome.png'); ?></p>
+<p class="content-section">
+Quark is the annual technical and innovation festival held in and by BITS Pilani, Goa campus. The objective of Quark is to provide a platform for the best minds in the country to showcase their talent and ingenuity. Since its inception in 2006, Quark has grown from strength to strength. What initially started of as an intra-college festival has now transcended boundaries and grown from strength to strength to become one of the biggest technical and innovation festivals in the country. The 2012 edition of the festival promises to be one of the biggest ever seen in the history of the BITS Pilani institute, and certainly the biggest technical and innovation festival Goa has ever witnessed.
+</p>

@@ -1,0 +1,19 @@
+My Data Structure
+Every face is bounded by edges.
+EVery Edge is defined by two vertices.
+Every Vertex is defined using 3 floats. (x, y, z). 
+
+Every edge is a part of a face. 
+Every vertex is a prt of an edge.
+
+face{
+	edge *edges[];
+}
+edge{
+	vertex *vertices[2];
+	face *faces[2];
+}
+vertex{
+	float x,y,z;
+	edge *edges[];
+}

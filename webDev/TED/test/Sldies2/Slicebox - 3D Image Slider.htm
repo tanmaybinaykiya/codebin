@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://tympanus.net/Development/Slicebox/index4.html -->
+<html lang="en" style="" class=" js csstransforms csstransforms3d csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Slicebox - 3D Image Slider</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Slicebox - 3D Image Slider with Fallback">
+        <meta name="keywords" content="jquery, css3, 3d, webkit, fallback, slider, css3, 3d transforms, slices, rotate, box, automatic">
+		<meta name="author" content="Pedro Botelho for Codrops">
+		<link rel="shortcut icon" href="http://tympanus.net/Development/favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="./Slicebox - 3D Image Slider_files/demo.css">
+		<link rel="stylesheet" type="text/css" href="./Slicebox - 3D Image Slider_files/slicebox.css">
+		<link rel="stylesheet" type="text/css" href="./Slicebox - 3D Image Slider_files/custom.css">
+		<script type="text/javascript" async="" src="./Slicebox - 3D Image Slider_files/ga.js"></script><script type="text/javascript" src="./Slicebox - 3D Image Slider_files/modernizr.custom.46884.js"></script>
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-7243260-2']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	<link rel="stylesheet" type="text/css" href="./Slicebox - 3D Image Slider_files/bsacustom.css"><style id="wrc-middle-css" type="text/css">.wrc_whole_window{	display: none;	position: fixed; 	z-index: 2147483647;	background-color: rgba(40, 40, 40, 0.9);	word-spacing: normal !important;	margin: 0px !important;	padding: 0px !important;	border: 0px !important;	left: 0px;	top: 0px;	width: 100%;	height: 100%;	line-height: normal !important;	letter-spacing: normal !important;	overflow: hidden;}.wrc_bar_window{	display: none;	position: fixed; 	z-index: 2147483647;	background-color: rgba(60, 60, 60, 1.0);	word-spacing: normal !important;	font-family: Segoe UI, Arial Unicode MS, Arial, Sans-Serif;	margin: 0px !important;	padding: 0px !important;	border: 0px !important;	left: 0px;	top: 0px;	width: 100%;	height: 40px;	line-height: normal !important;	letter-spacing: normal !important;	color: white !important;	font-size: 13px !important;}.wrc_middle {	display: table-cell;	vertical-align: middle;	width: 100%;}.wrc_middle_main {	font-family: Segoe UI, Arial Unicode MS, Arial, Sans-Serif;	font-size: 14px;	width: 600px;	height: auto;    background: url(chrome-extension://icmlaeflemplmjndnaapfdbbnpncnbda/skin/images/background-body.jpg) repeat-x left top;	background-color: rgb(39, 53, 62);	position: relative;	margin-left: auto;	margin-right: auto;	text-align: left;}.wrc_middle_tq_main {	font-family: Segoe UI, Arial Unicode MS, Arial, Sans-Serif;	font-size: 16px;	width: 615px;	height: 460px;    background: url(chrome-extension://icmlaeflemplmjndnaapfdbbnpncnbda/skin/images/background-sitecorrect.png) no-repeat;	background-color: white;	color: black !important;	position: relative;	margin-left: auto;	margin-right: auto;	text-align: center;}.wrc_middle_logo {    background: url(chrome-extension://icmlaeflemplmjndnaapfdbbnpncnbda/skin/images/logo.jpg) no-repeat left bottom;    width: 140px;    height: 42px;    color: orange;    display: table-cell;    text-align: right;    vertical-align: middle;}.wrc_icon_warning {	margin: 20px 10px 20px 15px;	float: left;	background-color: transparent;}.wrc_middle_title {    color: #b6bec7;	height: auto;    margin: 0px auto;	font-size: 2.2em;	white-space: nowrap;	text-align: center;}.wrc_middle_hline {    height: 2px;	width: 100%;    display: block;}.wrc_middle_description {	text-align: center;	margin: 15px;	font-size: 1.4em;	padding: 20px;	height: auto;	color: white;	min-height: 3.5em;}.wrc_middle_actions_main_div {	margin-bottom: 15px;	text-align: center;}.wrc_middle_actions_blue_button div {	display: inline-block;	width: auto;	cursor: Pointer;	margin: 3px 10px 3px 10px;	color: white;	font-size: 1.2em;	font-weight: bold;}.wrc_middle_actions_blue_button {	-moz-appearance: none;	border-radius: 7px;	-moz-border-radius: 7px/7px;	border-radius: 7px/7px;	background-color: rgb(0, 173, 223) !important;	display: inline-block;	width: auto;	cursor: Pointer;	border: 2px solid #00dddd;	padding: 0px 20px 0px 20px;}.wrc_middle_actions_blue_button:hover {	background-color: rgb(0, 159, 212) !important;}.wrc_middle_actions_blue_button:active {	background-color: rgb(0, 146, 200) !important;	border: 2px solid #00aaaa;}.wrc_middle_actions_grey_button div {	display: inline-block;	width: auto;	cursor: Pointer;	margin: 3px 10px 3px 10px;	color: white !important;	font-size: 15px;	font-weight: bold;}.wrc_middle_actions_grey_button {	-moz-appearance: none;	border-radius: 7px;	-moz-border-radius: 7px/7px;	border-radius: 7px/7px;	background-color: rgb(100, 100, 100) !important;	display: inline-block;	width: auto;	cursor: Pointer;	border: 2px solid #aaaaaa;	text-decoration: none;	padding: 0px 20px 0px 20px;}.wrc_middle_actions_grey_button:hover {	background-color: rgb(120, 120, 120) !important;}.wrc_middle_actions_grey_button:active {	background-color: rgb(130, 130, 130) !important;	border: 2px solid #00aaaa;}.wrc_middle_action_low {	font-size: 0.9em;	white-space: nowrap;	cursor: Pointer;	color: grey !important;	margin: 10px 10px 0px 10px;	text-decoration: none;}.wrc_middle_action_low:hover {	color: #aa4400 !important;}.wrc_middle_actions_rest_div {	padding-top: 5px;	white-space: nowrap;	text-align: center;}.wrc_middle_action {	white-space: nowrap;	cursor: Pointer;	color: red !important;	font-size: 1.2em;	margin: 10px 10px 0px 10px;	text-decoration: none;}.wrc_middle_action:hover {	color: #aa4400 !important;}</style><script id="wrc-script-middle_window" type="text/javascript" language="JavaScript">var g_inputsCnt = 0;var g_InputThis = new Array(null, null, null, null);var g_alerted = false;/* we test the input if it includes 4 digits   (input is a part of 4 inputs for filling the credit-card number)*/function is4DigitsCardNumber(val){	var regExp = new RegExp('[0-9]{4}');	return (val.length == 4 && val.search(regExp) == 0);}/* testing the whole credit-card number 19 digits devided by three '-' symbols or   exactly 16 digits without any dividers*/function isCreditCardNumber(val){	if(val.length == 19)	{		var regExp = new RegExp('[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}');		return (val.search(regExp) == 0);	}	else if(val.length == 16)	{		var regExp = new RegExp('[0-9]{4}[0-9]{4}[0-9]{4}[0-9]{4}');		return (val.search(regExp) == 0);	}	return false;}function CheckInputOnCreditNumber(self){	if(g_alerted)		return false;	var value = self.value;	if(self.type == 'text')	{		if(is4DigitsCardNumber(value))		{			var cont = true;			for(i = 0; i < g_inputsCnt; i++)				if(g_InputThis[i] == self)					cont = false;			if(cont && g_inputsCnt < 4)			{				g_InputThis[g_inputsCnt] = self;				g_inputsCnt++;			}		}		g_alerted = (g_inputsCnt == 4);		if(g_alerted)			g_inputsCnt = 0;		else			g_alerted = isCreditCardNumber(value);	}	return g_alerted;}function CheckInputOnPassword(self){	if(g_alerted)		return false;	var value = self.value;	if(self.type == 'password')	{		g_alerted = (value.length > 0);	}	return g_alerted;}function onInputBlur(self, bRatingOk, bFishingSite){	var bCreditNumber = CheckInputOnCreditNumber(self);	var bPassword = CheckInputOnPassword(self);	if((!bRatingOk || bFishingSite == 1) && (bCreditNumber || bPassword) )	{		var warnDiv = document.getElementById("wrcinputdiv");		if(warnDiv)		{			/* show the warning div in the middle of the screen */			warnDiv.style.left = "0px";			warnDiv.style.top = "0px";			warnDiv.style.width = "100%";			warnDiv.style.height = "100%";			document.getElementById("wrc_warn_fs").style.display = 'none';			document.getElementById("wrc_warn_cn").style.display = 'none';			if(bFishingSite)				document.getElementById("wrc_warn_fs").style.display = 'block';			else				document.getElementById("wrc_warn_cn").style.display = 'block';			warnDiv.style.display = 'table';		}	}}</script><link type="text/css" rel="stylesheet" href="./Slicebox - 3D Image Slider_files/output.css"><script type="text/javascript" async="" src="./Slicebox - 3D Image Slider_files/bsa.js"></script><script type="text/javascript" id="_bsap_js_af25dfd2f1908889af7a1aa5f4dcbd9e" src="./Slicebox - 3D Image Slider_files/s_af25dfd2f1908889af7a1aa5f4dcbd9e.js" async="async"></script><style type="text/css" id="bsa_css">.one{position:relative}.one .bsa_it_ad{display:block;padding:15px;border:1px solid #e1e1e1;background:#f9f9f9;font-family:helvetica,arial,sans-serif;line-height:100%;position:relative}.one .bsa_it_ad a{text-decoration:none}.one .bsa_it_ad a:hover{text-decoration:none}.one .bsa_it_ad .bsa_it_t{display:block;font-size:12px;font-weight:bold;color:#212121;line-height:125%;padding:0 0 5px 0}.one .bsa_it_ad .bsa_it_d{display:block;font-size:11px;color:#434343;font-size:12px;line-height:135%}.one .bsa_it_ad .bsa_it_i{float:left;margin:0 15px 10px 0}.one .bsa_it_p{display:block;text-align:right;position:absolute;bottom:10px;right:15px}.one .bsa_it_p a{font-size:10px;color:#666;text-decoration:none}.one .bsa_it_ad .bsa_it_p a:hover{font-style:italic}</style></head>
+	<body><div id="codrops-ad-wrapper"><div id="bsap_1266962" class="bsap_1266962 bsap"><div class="bsa_it one"><div class="bsa_it_ad ad1 odd" id="bsa_2771031"><a href="http://stats.buysellads.com/click.go?z=1266962&b=2771031&g=&s=&sw=1366&sh=768&br=chrome,23,win&r=0.2268839969765395&link=http://www.clockworksms.com/?utm_source=devadpack&utm_medium=banner&utm_content=transparent&utm_campaign=Oct" onmouseover="window.status = &#39;http://www.clockworksms.com/?utm_source=devadpack&amp;utm_medium=banner&amp;utm_content=transparent&amp;utm_campaign=Oct&#39;; return true;" onmouseout="window.status=&#39;&#39;; return true;" target="_blank"><span class="bsa_it_i"><img src="./Slicebox - 3D Image Slider_files/131037-1349091474.png" width="130" height="100" alt="Clockwork"></span></a><a href="http://stats.buysellads.com/click.go?z=1266962&b=2771031&g=&s=&sw=1366&sh=768&br=chrome,23,win&r=0.6447355325799435&link=http://www.clockworksms.com/?utm_source=devadpack&utm_medium=banner&utm_content=transparent&utm_campaign=Oct" onmouseover="window.status = &#39;http://www.clockworksms.com/?utm_source=devadpack&amp;utm_medium=banner&amp;utm_content=transparent&amp;utm_campaign=Oct&#39;; return true;" onmouseout="window.status=&#39;&#39;; return true;" target="_blank"><span class="bsa_it_t">Clockwork</span><span class="bsa_it_d">The new simple Text Message API, exclusively for developers. Signup is free.</span></a><div style="clear:both"></div></div><span class="bsa_it_p"><a href="http://buysellads.com/buy/detail/17086/zone/1266962?utm_source=site_17086&utm_medium=website&utm_campaign=imagetext&utm_content=zone_1266962">ads by BSA</a></span></div></div><a href="http://adpacks.com/" id="bsap_aplink">via Ad Packs</a><a href="" id="adpack-remove"></a></div>
+		<div class="container">
+
+			<div class="codrops-top clearfix">
+				<a href="http://tympanus.net/Development/AutomaticImageMontage/"><span>« Previous Demo: </span>Automatic Image Montage</a>
+				<span class="right">
+					<a target="_blank" href="http://www.flickr.com/photos/strupler/">Images by <strong>ND Strupler</strong></a>
+					<a href="http://tympanus.net/codrops/?p=5657"><strong>Back to the Codrops Article</strong></a>
+				</span>
+			</div>
+
+			<h1>Slicebox <span>A fresh 3D image slider with graceful fallback</span></h1>
+			
+			<div class="more">
+				<ul id="sb-examples">
+					<li>More examples:</li>
+					<li><a href="http://tympanus.net/Development/Slicebox/index.html">Example 1</a></li>
+					<li><a href="http://tympanus.net/Development/Slicebox/index2.html">Example 2</a></li>
+					<li><a href="http://tympanus.net/Development/Slicebox/index3.html">Example 3</a></li>
+					<li class="selected"><a href="./Slicebox - 3D Image Slider_files/Slicebox - 3D Image Slider.htm">Example 4</a></li>
+				</ul>
+			</div>
+
+			<div class="wrapper">
+
+				<ul id="sb-slider" class="sb-slider" style="max-width: 700px; overflow: hidden;">
+					<li style="display: none;" class="">
+						<a href="http://www.flickr.com/photos/strupler/2969141180" target="_blank"><img src="./Slicebox - 3D Image Slider_files/1.jpg" alt="image1"></a>
+						<div class="sb-description">
+							<h3>Creative Lifesaver</h3>
+						</div>
+					</li>
+					<li style="display: none;" class="">
+						<a href="http://www.flickr.com/photos/strupler/2968268187" target="_blank"><img src="./Slicebox - 3D Image Slider_files/2.jpg" alt="image2"></a>
+						<div class="sb-description">
+							<h3>Honest Entertainer</h3>
+						</div>
+					</li>
+					<li style="display: none;" class="">
+						<a href="http://www.flickr.com/photos/strupler/2968114825" target="_blank"><img src="./Slicebox - 3D Image Slider_files/3.jpg" alt="image1"></a>
+						<div class="sb-description">
+							<h3>Brave Astronaut</h3>
+						</div>
+					</li>
+					<li style="display: none;" class="">
+						<a href="http://www.flickr.com/photos/strupler/2968122059" target="_blank"><img src="./Slicebox - 3D Image Slider_files/4.jpg" alt="image1"></a>
+						<div class="sb-description">
+							<h3>Affectionate Decision Maker</h3>
+						</div>
+					</li>
+					<li style="display: block;" class="sb-current">
+						<a href="http://www.flickr.com/photos/strupler/2969119944" target="_blank"><img src="./Slicebox - 3D Image Slider_files/5.jpg" alt="image1"></a>
+						<div class="sb-description">
+							<h3>Faithful Investor</h3>
+						</div>
+					</li>
+					<li style="display: none;" class="">
+						<a href="http://www.flickr.com/photos/strupler/2968126177" target="_blank"><img src="./Slicebox - 3D Image Slider_files/6.jpg" alt="image1"></a>
+						<div class="sb-description">
+							<h3>Groundbreaking Artist</h3>
+						</div>
+					</li>
+					<li style="display: none;" class="">
+						<a href="http://www.flickr.com/photos/strupler/2968945158" target="_blank"><img src="./Slicebox - 3D Image Slider_files/7.jpg" alt="image1"></a>
+						<div class="sb-description">
+							<h3>Selfless Philantropist</h3>
+						</div>
+					</li>
+				</ul>
+
+				<div id="shadow" class="shadow" style="display: block;"></div>
+
+				<div id="nav-arrows" class="nav-arrows" style="display: block;">
+					<a href="http://tympanus.net/Development/Slicebox/index4.html#">Next</a>
+					<a href="http://tympanus.net/Development/Slicebox/index4.html#">Previous</a>
+				</div>
+
+			</div><!-- /wrapper -->
+			<p class="info"><strong>Example 4:</strong> Same like example example 3, with a higher disperse factor</p>
+
+		</div>
+		<script type="text/javascript" src="./Slicebox - 3D Image Slider_files/jquery.min.js"></script>
+		<script type="text/javascript" src="./Slicebox - 3D Image Slider_files/jquery.slicebox.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ).hide(),
+						$shadow = $( '#shadow' ).hide(),
+						slicebox = $( '#sb-slider' ).slicebox( {
+							onReady : function() {
+
+								$navArrows.show();
+								$shadow.show();
+
+							},
+							orientation : 'r',
+							cuboidsRandom : true,
+							disperseFactor : 30
+						} ),
+						
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+
+								slicebox.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':last' ).on( 'click', function() {
+								
+								slicebox.previous();
+								return false;
+
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+			});
+		</script>
+		<script src="./Slicebox - 3D Image Slider_files/csscustom.js"></script> 
+		<div><div id="oio-banner-1" style="width:130px; margin:0 auto;">
+<script type="text/javascript" async="true">
+jQuery(function($){
+$('body').prepend('<div id="codrops-ad-wrapper"><div id="bsap_1266962" class="bsarocks bsarocks bsap_af25dfd2f1908889af7a1aa5f4dcbd9e"></div><a href="http://adpacks.com" id="bsap_aplink">via Ad Packs</a></div>');
+$('<a>').attr('href','').attr('id','adpack-remove').bind('click',function(){
+		$(this).parent().remove();
+		return false;
+}).appendTo('#codrops-ad-wrapper');
+(function(){
+	  var bsa = document.createElement('script');
+		 bsa.type = 'text/javascript';
+		 bsa.async = true;
+		 bsa.src = '//s3.buysellads.com/ac/bsa.js';
+	  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+	})();
+		
+});
+</script>
+</div></div>
+	
+	</body></html>

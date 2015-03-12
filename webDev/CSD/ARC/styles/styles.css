@@ -1,0 +1,178 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body
+{	margin:0px;
+	 /* background-image:url(../img/bg.jpg);   */
+	/*background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAMAAAB883U1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAlQTFRF7+/v7u7u////REBVnAAAAAN0Uk5T//8A18oNQQAAABZJREFUeNpiYGJiYmBiYgRiBhAGCDAAALsAFJhiJ+UAAAAASUVORK5CYII=); */
+	background-repeat:repeat;
+	font-family:Arial, Helvetica, sans-serif;
+	font:Arial, Helvetica, sans-serif;
+	background-color:#f8f8f8;
+}
+.wrapper
+{	
+	margin:0 auto;
+	width:1000px;
+}
+.header
+{
+	clear:both;
+	background-color:#fff;
+	width:1000px;
+	height:150px;
+	border:#aaa solid 1px;
+	border-radius:2px;
+
+}
+.header p
+{	clear both;
+	float:right;
+	margin:85px 35px 0 0 ;
+	color:#09F;
+	font-weight:bolder;
+	font-size:42px;
+}
+.footer
+{	clear:both;
+	margin-top:0px;
+	padding:10px;
+	width:980px;
+	height:40px;
+	background-color:#FFF;
+	border:#aaa solid 1px;
+	border-radius:2px;
+}
+.footer p 
+{
+	width:100%;
+	text-align:center;
+	font-size:12px;
+	color:#333;
+	line-height:5px;
+	margin-top: 10px;
+}
+.footer a
+{	
+	font-size:12px;
+	color:#333;
+
+	text-decoration:none;
+	text-align:center;
+}
+#info
+{
+	margin:15px 0 0 30px;
+}
+
+.buttons{
+	float:left;
+}
+.buttons button{
+	
+    background-color:#f5f5f5;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;
+	border-radius:2px;
+  	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size:12px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:5px 10px 6px 7px; /* Links */
+}
+#heading
+{
+	clear both;
+	float:right;
+	margin:85px 15px 0 0 ;
+	color:#444;
+	font-weight:bolder;
+	font-size:42px; text-decoration:none;
+}
+#heading:hover
+{
+	color:#333;
+}
+.buttons button{
+    background-color:#f5f5f5;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;
+	border-radius:2px;
+  	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size:12px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:5px 10px 6px 7px; /* Links */
+}
+.strips
+{
+	height:8px;
+	width:200px;
+	float:left;
+}
+#colstrips
+{
+	float:right;
+	margin-right:10px;
+}
+.error{
+	margin:25px 0 0 10px;
+	float:left;
+	color:red;
+	font-size:10px;
+}
+#dateError {
+	color:red;
+	font-size:10px;
+	float:left;
+	margin-left:10px;
+	margin-top:25px;
+}
+
+
+/**********************************************************	APPPROVE TABLE */
+#AppTable{
+	/*border: 1px solid #EEE;*/
+	padding:0px;
+}
+
+#AppTable th{
+	min-width:71px;
+	text-align:center;
+	padding:10px; 
+	font-size: 15px;
+	font-weight: bold;
+	border-bottom: 1px solid #aaa;
+}
+#AppTable th:first-child{
+	padding:10px 0px ; 
+}
+#AppTable thead{
+	margin:0px;
+}
+
+#AppTable td{
+	text-align: center;	
+	padding:5px 10px; 
+	font-size: 14px;
+	min-height: 15px;
+	border-bottom: #aaa 1px dashed;
+}
+#AppTable tr{
+	border-bottom: #000 1px solid;
+}
+#AppTable tr:not(:first-child):hover{
+	color: #0460d0;
+}
+
+#ApproveTable{
+	clear:both;
+	float:left;
+}

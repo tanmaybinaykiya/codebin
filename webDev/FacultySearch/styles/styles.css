@@ -1,0 +1,49 @@
+/***
+margin-left == (pageWidth - wrapperWidth)/2;
+
+**/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+    color: #333;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius:2px;
+}
+
+body {
+    background-color: #f0f0f0;
+    
+    clear: both;
+    float: left;
+
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 0px;   
+    line-height: 0px;
+}
+
+.wrapper
+{
+    float: left;
+    background-color: #fff;
+    background-repeat: repeat-y;
+    
+    min-height: 600px;
+    margin: 40px 10px 0 10px;
+    border: 1px solid #aaa;
+}
