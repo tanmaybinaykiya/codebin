@@ -1,5 +1,5 @@
-/*
- * Problem Statement
+/**************************************************************************************************
+Problem Statement
 
 Shipra wants to impress her geeky boyfriend on Valentine's day. She wants to paint the wall of his house red with a number. She thinks that the larger the number is, there is more chance to impress him.
 
@@ -27,82 +27,82 @@ INPUT
 	5 5 5 5 5 5 5 5 5
 OUTPUT
 	99
-*/
+***************************************************************************************************/
 #include<iostream>
 #include<vector>
 #include<algorithm>
-using namespace std;
+	using namespace std;
 
-long int find(std::vector<long int> paints, long int minUsageMaxNum){
+	long int find(std::vector<long int> paints, long int minUsageMaxNum){
 	// cout<<"FIND : \t";
-	for (long int i=paints.size()-1;i>=0;i--){
+		for (long int i=paints.size()-1;i>=0;i--){
 		// cout<<paints[i]<<"\t";
-		if(paints[i]==minUsageMaxNum){
+			if(paints[i]==minUsageMaxNum){
 			// cout<<"\n";
-			return i;
+				return i;
+			}
 		}
+		cout<<"ERROR\n";
+		return -1;
 	}
-	cout<<"ERROR\n";
-	return -1;
-}
-long int findNextPossible(std::vector<long int> paints,long int qty){
+	long int findNextPossible(std::vector<long int> paints,long int qty){
 	// cout<<"FIND: "<<qty<<" \t";
-	for(long int i=paints.size()-1;i>=0;i--){
+		for(long int i=paints.size()-1;i>=0;i--){
 		// cout<<paints[i]<<"\t";
-		if(paints[i]<=qty){
+			if(paints[i]<=qty){
 			// cout<<"\n";
-			return i;
+				return i;
+			}
 		}
-	}
 	// cout<<"ERROR\n";
-	return -1;
+		return -1;
 
-}
+	}
 
-void solve(long int V, std::vector<long int> paints){
+	void solve(long int V, std::vector<long int> paints){
 	// cout<<"SOLVE V:"<<V<<"\n";
-	std::vector<long int> sortedPaint(paints);
-	sort(sortedPaint.rbegin(),sortedPaint.rend());
-	long int minUsageMaxNumPaintQuantity=sortedPaint[8];
-	if(V<minUsageMaxNumPaintQuantity){
-		cout<<"-1";
-		return;
-	}
+		std::vector<long int> sortedPaint(paints);
+		sort(sortedPaint.rbegin(),sortedPaint.rend());
+		long int minUsageMaxNumPaintQuantity=sortedPaint[8];
+		if(V<minUsageMaxNumPaintQuantity){
+			cout<<"-1";
+			return;
+		}
 	// cout<<"minUsageMaxNumPaintQuantity "<<minUsageMaxNumPaintQuantity<<"\n";
-	long int minUsageMaxNum=find(paints,minUsageMaxNumPaintQuantity);
+		long int minUsageMaxNum=find(paints,minUsageMaxNumPaintQuantity);
 	// cout<<"minUsageMaxNum "<<minUsageMaxNum+1<<"\n";
-	long int digits=V/(minUsageMaxNumPaintQuantity);
+		long int digits=V/(minUsageMaxNumPaintQuantity);
 	// cout<<"digits "<<digits<<"\n";
-	long int diff=V%(minUsageMaxNumPaintQuantity);
+		long int diff=V%(minUsageMaxNumPaintQuantity);
 	// cout<<"diff "<<diff<<"\n";
-	string output (digits, '1'+minUsageMaxNum);
+		string output (digits, '1'+minUsageMaxNum);
 	// cout<<"trivial output:"<<output<<" \n";
-	long int charPosn=0;
+		long int charPosn=0;
 	// cout<<"SOLVE5\n";
-	while(diff!=0){
-		if(charPosn>=output.size())
-			break;
-		long int nextPossible=findNextPossible(paints,minUsageMaxNumPaintQuantity+diff);
-		if (nextPossible==-1){
-			break;
+		while(diff!=0){
+			if(charPosn>=output.size())
+				break;
+			long int nextPossible=findNextPossible(paints,minUsageMaxNumPaintQuantity+diff);
+			if (nextPossible==-1){
+				break;
+			}
+			else{		
+				output[charPosn]=nextPossible + '1';
+				diff-=paints[nextPossible]-paints[minUsageMaxNum];
+			}
+			charPosn++;
 		}
-		else{		
-			output[charPosn]=nextPossible + '1';
-			diff-=paints[nextPossible]-paints[minUsageMaxNum];
-		}
-		charPosn++;
-	}
-	cout<<output<<endl;
-}
-
-int main(){
-	long int V=0;
-	std::vector<long int> paints(9,0);
-	cin>>V;
-	for(long int i=0;i<9;i++){
-		cin>>paints[i];
+		cout<<output<<endl;
 	}
 
-	solve(V,paints);
-	return 0;
-}
+	int main(){
+		long int V=0;
+		std::vector<long int> paints(9,0);
+		cin>>V;
+		for(long int i=0;i<9;i++){
+			cin>>paints[i];
+		}
+
+		solve(V,paints);
+		return 0;
+	}
