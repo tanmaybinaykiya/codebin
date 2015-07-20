@@ -33,7 +33,7 @@ func showGrid(start, goal node) {
 			} else if i == goal.x && j == goal.y {
 				fmt.Printf("G ")
 			} else if blockedSet.Contains(pt) {
-				fmt.Printf("  ")
+				fmt.Printf("# ")
 			} else if solutionSet.Contains(pt) {
 				fmt.Printf("* ")
 			} else if fullSet.Contains(pt) {
@@ -67,6 +67,7 @@ func (root node) neighbours(fullSet mapset.Set) mapset.Set {
 func heuristic_cost_estimate(start, goal node) int {
 	rand.Seed(time.Now().UnixNano())
 	sign := rand.Intn(2)
+	// sign := 1
 	if sign == 1 {
 		return (start.x-goal.x)*(start.x-goal.x) + (start.y-goal.y)*(start.y-goal.y)
 	} else {
@@ -186,11 +187,11 @@ func main() {
 
 	for i := 0; i < MAX-1; i++ {
 		blockedSet.Add(node{x: i, y: 1})
-		// blockedSet.Add(node{x: i, y: 5})
+		blockedSet.Add(node{x: i, y: 5})
 	}
 	for i := 1; i < MAX; i++ {
 		blockedSet.Add(node{x: i, y: 3})
-		// blockedSet.Add(node{x: i, y: 7})
+		blockedSet.Add(node{x: i, y: 7})
 	}
 
 	if path, ok := aStar(start, goal); ok {
