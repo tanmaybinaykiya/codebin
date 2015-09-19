@@ -4,10 +4,17 @@ import (
 	"fmt"
 	"github.com/gorilla/websocket"
 	"net/http"
+	"strings"
 	"time"
 )
 
-type Hello struct{}
+type HTTPHandler struct{}
+
+type Connection struct {
+	wsConn           *websocket.Conn
+	heartBeatChannel chan string
+	messageChannel   chan string
+}
 
 var upgrader = websocket.Upgrader{
 	CheckOrigin:     func(r *http.Request) bool { return true },
@@ -15,59 +22,91 @@ var upgrader = websocket.Upgrader{
 	WriteBufferSize: 1024,
 }
 
-func recHeartbeats(conn *websocket.Conn, recd chan []byte) {
+var pongMessage = "primus::pong"
+var pingMessage = "primus::ping"
 
+func GetPongMessage() string {
+	return fmt.Sprintf("primus::pong:%d", time.Now().UnixNano()/int64(time.Millisecond))
+}
+
+func (conn Connection) HBHandler() {
 	timer := time.NewTimer(5 * time.Second)
-
 	go func() {
 		for {
 			select {
-			case <-recd:
-				fmt.Println("Saved by the ping")
+			case <-conn.heartBeatChannel:
 				val := timer.Reset(5 * time.Second)
 				if !val {
-					conn.Close()
+					conn.wsConn.Close()
 				}
+				conn.sendMessage(GetPongMessage())
 			case <-timer.C:
-				conn.Close()
-				fmt.Printf("Closing connection as heartbeat not sent in time")
+				fmt.Println("Closing connection as heartbeat not sent in time")
+				conn.wsConn.Close()
 			}
 		}
 	}()
 }
 
-func readAndWrite(conn *websocket.Conn) error {
-	recd := make(chan []byte)
-	recHeartbeats(conn, recd)
-	for {
-		messageType, p, err := conn.ReadMessage()
-		if err != nil {
-			fmt.Println(err)
-			return err
+func (conn Connection) MessageHandler() {
+	go func() {
+		for {
+			select {
+			case <-conn.messageChannel:
+				conn.sendMessage("Reply: " + <-conn.messageChannel)
+			}
 		}
-		recd <- p
-		if err = conn.WriteMessage(messageType, p); err != nil {
-			fmt.Println(err)
-			return err
-		}
-		fmt.Println("write:" + string(p))
-	}
-	return nil
+	}()
 }
 
-func (h Hello) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("Hello!")
-	conn, err := upgrader.Upgrade(w, r, nil)
-	if err != nil {
-		fmt.Println("err upgrading " + err.Error())
-		return
+func (conn Connection) WSListener() {
+	for {
+		messageType, message, err := conn.wsConn.ReadMessage()
+		if err != nil {
+			fmt.Println(err)
+			return
+		}
+		if messageType == websocket.TextMessage {
+			// fmt.Println("Message received\n")
+			if strings.HasPrefix(string(message), pingMessage) {
+				fmt.Printf("\t heartBeat Message: %s\n", message)
+				conn.heartBeatChannel <- string(message)
+			} else {
+				fmt.Printf("\t regular Message: %s\n", message)
+				conn.messageChannel <- string(message)
+			}
+		} else {
+			fmt.Println("Binary Frame, not handling for now")
+		}
 	}
-	fmt.Println("conn upgraded")
-	readAndWrite(conn)
+}
+
+func (conn Connection) sendMessage(message string) {
+	conn.wsConn.WriteMessage(websocket.TextMessage, []byte(message))
+}
+
+func (h HTTPHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+
+	if r.Header.Get("Upgrade") == "websocket" {
+		wconn, err := upgrader.Upgrade(w, r, nil)
+		if err != nil {
+			fmt.Println("err upgrading " + err.Error())
+			return
+		}
+		fmt.Println("conn upgraded")
+		heartBeatChannel := make(chan string)
+		messageChannel := make(chan string)
+		conn := Connection{wconn, heartBeatChannel, messageChannel}
+		conn.HBHandler()
+		conn.MessageHandler()
+		conn.WSListener()
+	} else {
+		w.Write([]byte("Hi! This is Tanmay's server. You should not be meddling around here"))
+	}
 }
 
 func main() {
-	var h Hello
+	var h HTTPHandler
 	err := http.ListenAndServe("localhost:4000", h)
 	if err != nil {
 		fmt.Println(err)

@@ -18,7 +18,7 @@ func sendHeartbeats(wsConn *websocket.Conn) {
 		for {
 			select {
 			case <-ticker.C:
-				wsConn.WriteMessage(websocket.TextMessage, []byte("ping"))
+				wsConn.WriteMessage(websocket.TextMessage, []byte(fmt.Sprintf("primus::ping:%d", time.Now().UnixNano()/int64(time.Millisecond))))
 				scount++
 				fmt.Printf("s: %d\n", scount)
 			case <-quit:
