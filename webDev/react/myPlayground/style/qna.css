@@ -1,0 +1,27 @@
+#content{
+    width: 300px;
+    height: 500px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+}
+.qnaCard{
+    display: block;
+    margin: 9px;
+    border: 1px solid #aaa;
+}
+.question{
+    margin: 5px;
+    margin-top: 10px;
+}
+.answer-list{
+    display: block;
+    margin: 5px 5px 5px 10px;
+}
+.answer{
+    display: block;
+    margin: 5px 5px 5px 10px;
+}
+* {
+    padding:0;
+    margin:0;
+}

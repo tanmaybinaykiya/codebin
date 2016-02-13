@@ -1,0 +1,47 @@
+/*<div className="header">
+        		<img src="img/logo.png" alt="Logo" id="logo"/>
+        		<a id="homeLink" href="index.html">Vacation</a>
+        		<p>Easiest way to shop for travel </p>
+			</div>*/
+
+.header{
+	color:#a4e0fe;
+    width: 100%;
+    font-size:18px;
+    padding: 20px;
+    border-bottom: 1px solid #aaa;
+    background-color: #fff;
+}		
+
+#homeLink{
+	font-size: 48px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #00aaff;
+}
+
+.headerText{
+	width: 215px;
+	display: inline-block;
+	text-align: right;
+}
+.headerText span{
+	font-size: 18px;
+	display: block;
+    color: #333;
+}
+
+#logo{
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    background: url(../img/logo.png) 0 0;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: -60px -30px;
+}
+
+.justForCentering{
+	width: 300px;
+	margin: 0 auto;
+}

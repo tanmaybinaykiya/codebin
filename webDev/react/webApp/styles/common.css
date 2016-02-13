@@ -1,0 +1,14 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+}
+*{    
+    font-family: "Raleway", Calibri, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #333;
+}
+a{
+	text-decoration: none;
+    color: #333;	
+}

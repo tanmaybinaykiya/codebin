@@ -1,0 +1,135 @@
+.homePage{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px; 
+    /*border: 1px solid #eee;*/
+}
+
+#welcomeText{
+	text-align: center;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #aaa;
+}
+
+#welcomeText span{
+	font-size: 20px;
+}
+
+#questionCard{
+	width: 500px;
+    margin: 0 auto;
+    margin-top: 20px; 
+	text-align: left;
+	font-size: 16px;
+	line-height: 30px;
+	border: 1px solid #aaa;
+	background-color: #fff;
+	
+
+}
+
+#questionCardTitle{
+	font-size: 20px;
+	padding: 20px;
+	background-color: #fefefe;
+	border-bottom: 1px solid #eee;
+}
+
+#questionCardTitle span{
+
+}
+
+#questionCard{
+
+
+}
+
+.formCard{
+	
+}
+
+.subForm{
+	padding: 12px 20px;
+	border-top: 1px solid #eee;
+}
+
+.subForm:first-child{
+	border-top: none;
+}
+
+//select form
+
+#selectForm{
+
+}
+
+#selectForm span{
+	font-size: 16px;
+}
+
+#selectForm select{
+	font-size: 20px;
+}
+
+// radio form
+
+#radio-form {
+	border-top: 1px solid #eee;
+}
+
+#radio-form span{
+	font-size: 16px;
+}
+
+#radio-form-title{
+	display: block;
+}
+
+.input-span{
+	display: inline-block;
+	width: 153px;
+}
+
+.input-span input{
+	
+}
+
+.input-span span{
+	font-size: 16px;
+	margin-left: 5px;
+}
+
+#form-question{
+	display: block;
+}
+
+#submitButton{
+	padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    background-color: #00aaff;
+    border: 1px solid #00aaff;
+    margin: 0 auto;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+#submitButton:hover{
+	background-color: #66ccff;
+	border-bottom-color:#000;
+	border-bottom-width:2px;
+	padding-bottom: 9px;  
+}
+
+#submitButton:active{
+	background-color: #00aaff;
+	border-top-color:#fff;
+	border-top-width:2px;
+	padding-top: 9px;  
+	border-bottom-color:#aaa;
+	border-bottom-width:1px;
+	padding-bottom: 10px;  
+
+}

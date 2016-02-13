@@ -1,0 +1,1 @@
+React.render(<Wrapper />, document.getElementById('content'));

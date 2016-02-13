@@ -1,0 +1,163 @@
+.homePage{
+    margin: 0 auto;
+    padding-top: 20px; 
+}
+
+#welcomeText{
+    width: 560px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #FFAD00;
+}
+
+#welcomeText span{
+	color: #fff;
+	font-size: 24px;
+}
+
+#questionCard{
+	width: 600px;
+    margin: 0 auto;
+    margin-top: 20px; 
+	text-align: left;
+	font-size: 16px;
+	line-height: 30px;
+	background-color: #2c3e50;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding-bottom: 2px;
+}
+
+#questionCardTitle{
+	background-color: #3498DB;
+	padding: 20px 20px 15px 20px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#questionCardTitle span{
+	font-size: 24px;
+	color: #fff;
+}
+
+#questionCard{
+
+
+}
+
+.formCard{
+	
+}
+
+.subForm{
+	padding: 12px 20px;
+	margin-top: 2px;
+	background-color: #34495e;
+}
+
+.subForm:first-child{
+	border-top: none;
+}
+
+#selectForm{
+	
+	display: block;
+}
+
+#dropdown-content{
+	display: inline-block;
+}
+
+#dropdown-content:hover #selectForm-dropdown-content{
+	display: inline-block;
+}
+
+
+#selectForm-dropdown-content{
+	display: none;
+	position: absolute;
+	max-height: 150px;
+	overflow: scroll;
+}
+
+.selectForm-item{
+	width: 150px;
+    padding: 5px 10px;
+	background-color: #2c3e50;
+	display: block;
+
+}
+#selectForm-item-default{
+	-webkit-box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.5) inset;
+	-moz-box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.5) inset;
+	box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.5) inset;
+}
+
+
+.selectForm-item a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#selectForm-item-default:hover{
+	border-bottom:none;
+}
+
+.selectForm-item:hover{
+	background-color: #fff;
+}
+.selectForm-item:hover a {
+	color: #2c3e50;
+}
+
+#radio-form {
+}
+
+#radio-form span{
+}
+
+.input-span{
+	display: inline-block;
+	padding: 0 3px;
+	width: 180px;
+}
+
+.input-span input{
+	margin-right: 5px;
+}
+
+.input-span span{
+	font-size: 18px;
+	margin-left: 5px;
+	color: #bbb;
+}
+
+#form-question{
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#submitButton{
+	width: 150px;
+	text-align: center;
+	padding: 10px 20px;
+    color: #fff;
+    display: block;
+    background-color: #3498DB;
+    border: 1px solid #2980B9;
+    margin: 0 auto;
+    border-radius: 2px;
+    font-size: 18px;
+    transition-duration: 0.7s;
+}
+
+#submitButton:hover{
+	background-color: #00aaff;
+}
+
+#submitButton:active{
+	background-color: #2980B9;
+}
