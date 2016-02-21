@@ -1,0 +1,1183 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"reg",
+				"regularizationParam"
+			],
+			[
+				"regul",
+				"regularization"
+			],
+			[
+				"p",
+				"prob"
+			],
+			[
+				"fo",
+				"for"
+			],
+			[
+				"h",
+				"h-y"
+			],
+			[
+				"gr",
+				"grad"
+			],
+			[
+				"e",
+				"e	exp"
+			],
+			[
+				"in",
+				"interm"
+			],
+			[
+				"J_",
+				"J_history"
+			],
+			[
+				"J",
+				"J_history"
+			],
+			[
+				"the",
+				"theta"
+			],
+			[
+				"th",
+				"theta"
+			],
+			[
+				"s",
+				"something"
+			],
+			[
+				"rec",
+				"reconnectHandler"
+			],
+			[
+				"err",
+				"errorHandler"
+			],
+			[
+				"dis",
+				"disconnectionHandler"
+			],
+			[
+				"conn",
+				"connection"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"spa",
+				"sparkId"
+			],
+			[
+				"pr",
+				"primus"
+			],
+			[
+				"sp",
+				"Spark"
+			],
+			[
+				"con",
+				"connectedSparks"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"c",
+				"cb"
+			],
+			[
+				"fin",
+				"findOne"
+			],
+			[
+				"er",
+				"error"
+			],
+			[
+				"Pl",
+				"PlaylistState"
+			],
+			[
+				"pla",
+				"playlist"
+			],
+			[
+				"pl",
+				"playlists"
+			],
+			[
+				"PL",
+				"PlaylistState"
+			],
+			[
+				"get",
+				"getPubListByGeoTag"
+			],
+			[
+				"RE",
+				"REQUEST"
+			],
+			[
+				"meth",
+				"methodType"
+			],
+			[
+				"Erro",
+				"Errors"
+			],
+			[
+				"str",
+				"stringify"
+			],
+			[
+				"pro",
+				"promise"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"User",
+				"User"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"ad",
+				"admin"
+			],
+			[
+				"Pla",
+				"PlaylistState"
+			],
+			[
+				"se",
+				"security"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"sta",
+				"statusCode"
+			],
+			[
+				"us",
+				"userToken"
+			],
+			[
+				"playl",
+				"playlist"
+			],
+			[
+				"up",
+				"upvote_count"
+			],
+			[
+				"upda",
+				"updateFunc"
+			],
+			[
+				"ca",
+				"callback"
+			],
+			[
+				"st",
+				"state"
+			],
+			[
+				"ex",
+				"exec"
+			],
+			[
+				"son",
+				"song"
+			],
+			[
+				"so",
+				"song"
+			],
+			[
+				"song",
+				"songIndex"
+			],
+			[
+				"fi",
+				"findByIdAndRemove"
+			],
+			[
+				"new",
+				"newPlaylist"
+			],
+			[
+				"U",
+				"User"
+			],
+			[
+				"S",
+				"Song"
+			],
+			[
+				"f",
+				"foo0"
+			],
+			[
+				"uo",
+				"upvote_count"
+			],
+			[
+				"n",
+				"name"
+			],
+			[
+				"sa",
+				"save"
+			],
+			[
+				"ne",
+				"newBar"
+			],
+			[
+				"nw",
+				"newSong"
+			],
+			[
+				"log",
+				"logger"
+			],
+			[
+				"play",
+				"playlists"
+			],
+			[
+				"pub",
+				"pubId"
+			],
+			[
+				"P",
+				"Pub"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"r",
+				"response"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"upd",
+				"updateState"
+			],
+			[
+				"test",
+				"testCall"
+			],
+			[
+				"regi",
+				"register"
+			],
+			[
+				"app",
+				"appHandler"
+			],
+			[
+				"songI",
+				"songIndex"
+			],
+			[
+				"Play",
+				"Playlist"
+			],
+			[
+				"dj",
+				"djToken"
+			],
+			[
+				"ow",
+				"ownerToken"
+			],
+			[
+				"on",
+				"ownerObj"
+			],
+			[
+				"po",
+				"postCall"
+			],
+			[
+				"options",
+				"optionspost"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"ho",
+				"hostname"
+			],
+			[
+				"dec",
+				"decoded"
+			],
+			[
+				"_",
+				"_id"
+			],
+			[
+				"lo",
+				"logger"
+			],
+			[
+				"ge",
+				"genre"
+			],
+			[
+				"playlis",
+				"playlistId"
+			],
+			[
+				"playL",
+				"playlistId"
+			],
+			[
+				"admi",
+				"adminHandler"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "machine-learning-ex2/ex2/costFunction.m",
+			"settings":
+			{
+				"buffer_size": 427,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "machine-learning-ex2/ex2/plotData.m",
+			"settings":
+			{
+				"buffer_size": 233,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "machine-learning-ex2/ex2/ex2_reg.m",
+			"settings":
+			{
+				"buffer_size": 2973,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "machine-learning-ex2/ex2/costFunctionReg.m",
+			"settings":
+			{
+				"buffer_size": 1193,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/media/D/codebin/github/codebin/ML",
+		"/media/D/codebin/github/codebin/ML/ex1- completed",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex2",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex2/ex2"
+	],
+	"file_history":
+	[
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex2/ex2/ex2.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex2/ex2/predict.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex2/ex2/plotDecisionBoundary.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex2/ex2/ex2data1.txt",
+		"/tmp/mozilla_tanmay0/subtitle.txt",
+		"/usr/share/octave/3.8.1/m/optimization/fminunc.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex2/ex2/sigmoid.m",
+		"/media/D/Academics/onlineCourses/CourseEra/Machine Learning/assignments/machine-learning-ex1/ex1/featureNormalize.m",
+		"/media/D/Academics/onlineCourses/CourseEra/Machine Learning/assignments/machine-learning-ex1/ex1/normalEqn.m",
+		"/media/D/Academics/onlineCourses/CourseEra/Machine Learning/assignments/machine-learning-ex1/ex1/gradientDescentMulti.m",
+		"/media/D/Academics/onlineCourses/CourseEra/Machine Learning/assignments/machine-learning-ex1/ex1- completed/gradientDescent.m",
+		"/media/D/Academics/onlineCourses/CourseEra/Machine Learning/assignments/machine-learning-ex1/ex1/computeCostMulti.m",
+		"/media/D/Academics/onlineCourses/CourseEra/Machine Learning/assignments/machine-learning-ex1/ex1/computeCost.m",
+		"/media/D/Academics/onlineCourses/CourseEra/Machine Learning/assignments/machine-learning-ex1/ex1/ex1.m",
+		"/media/D/Academics/onlineCourses/CourseEra/Machine Learning/assignments/machine-learning-ex1/ex1/gradientDescent.m",
+		"/media/D/Academics/onlineCourses/CourseEra/Machine Learning/assignments/machine-learning-ex1/ex1/warmUpExercise.m",
+		"/media/D/Academics/onlineCourses/CourseEra/Machine Learning/assignments/machine-learning-ex1/ex1/plotData.m",
+		"/media/D/codebin/grep/test/testWS.js",
+		"/media/D/codebin/grep/server.js",
+		"/media/D/codebin/grep/controllers/security.js",
+		"/media/D/codebin/grep/lib/wsServer.js",
+		"/media/D/codebin/github/codebin/react/react-0.14.6/examples/basic/index.html",
+		"/home/tanmay/Downloads/charles/bin/^-",
+		"/media/D/codebin/github/codebin/react/react-0.14.6/README.md",
+		"/home/tanmay/grep/wsClient.js",
+		"/home/tanmay/grep/wsServer.js",
+		"/home/tanmay/grep/node_004.js",
+		"/home/tanmay/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/media/D/codebin/grep/node_modules/primus/dist/primus.js",
+		"/media/D/codebin/grep/node_modules/primus/index.js",
+		"/media/D/codebin/grep/lib/apiHandler.js",
+		"/media/D/codebin/grep/controllers/dj.js",
+		"/media/D/codebin/grep/package.json",
+		"/media/D/codebin/grep/node_modules/ecdsa-sig-formatter/bencmarks/der-to-jose.js",
+		"/media/D/codebin/grep/node_modules/primus/primus.js",
+		"/media/D/codebin/grep/node_modules/primus/README.md",
+		"/media/D/codebin/grep/util/Errors.js",
+		"/media/D/codebin/grep/testClient.js",
+		"/media/D/codebin/grep/controllers/app.js",
+		"/media/D/codebin/grep/models/Pub.js",
+		"/media/D/codebin/grep/models/Playlist.js",
+		"/media/D/codebin/grep/node_modules/mongodb/lib/aggregation_cursor.js",
+		"/media/D/codebin/grep/enums/SongState.js",
+		"/media/D/codebin/grep/controllers/admin.js",
+		"/media/D/codebin/grep/models/Song.js",
+		"/media/D/codebin/grep/controllers/owner.js",
+		"/home/tanmay/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/media/D/codebin/grep/models/User.js",
+		"/media/D/codebin/grep/apiHandler.js",
+		"/media/D/codebin/grep/config.js",
+		"/media/D/codebin/grep/util/logger.js",
+		"/media/D/codebin/grep/security.js",
+		"/media/D/codebin/grep/test/test.js",
+		"/media/D/codebin/grep/node_modules/nodelint/config.js",
+		"/media/D/codebin/grep/logger.js",
+		"/media/D/codebin/grep/INSTALL",
+		"/media/D/codebin/grep/APIDOC",
+		"/media/D/codebin/grep/DOC",
+		"/home/tanmay/.cinnamon/configs/window-list@cinnamon.org/3.json",
+		"/home/tanmay/.gconf/apps/gnome-terminal/profiles/Default/%gconf.xml",
+		"/media/D/codebin/grep/node_modules/express/lib/application.js",
+		"/media/D/codebin/grep/node_modules/express/History.md",
+		"/media/D/codebin/grep/node_modules/jsonwebtoken/test/rsa-public.pem",
+		"/media/D/codebin/grep/test/testMongoose.js",
+		"/media/D/codebin/grep/authenticator2.js",
+		"/media/D/codebin/grep/testMongoose.js",
+		"/media/D/codebin/grep/controllers/testMongoose.js",
+		"/media/D/codebin/grep/node_modules/mongoose/lib/error/cast.js",
+		"/home/tanmay/.bash_aliases",
+		"/home/tanmay/.bashrc",
+		"/media/D/codebin/grep/enums/PlaylistState.js",
+		"/media/D/codebin/grep/enums/SongType.js",
+		"/media/D/codebin/grep/controllers/user.js",
+		"/media/D/codebin/grep/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/dist/test/browserify.js",
+		"/home/tanmay/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/media/D/codebin/grep/authenticator.js",
+		"/media/D/codebin/grep/enums/Role.js",
+		"/media/D/codebin/grep/Roles.js",
+		"/media/D/codebin/grep/roles/app.js",
+		"/media/D/codebin/grep/roles/owner.js",
+		"/media/D/codebin/grep/test.js",
+		"/media/D/codebin/grep/node_modules/mongoose/examples/geospatial/geoJSONSchema.js",
+		"/media/D/codebin/grep/testGeo.js",
+		"/media/D/codebin/grep/roles/dj.js",
+		"/media/D/codebin/grep/roles/admin.js",
+		"/media/D/codebin/grep/test2.js",
+		"/media/D/codebin/grep/roles/pub.js",
+		"/media/D/codebin/grep/models/Users.js",
+		"/home/tanmay/grep/restServer/authenticator.js",
+		"/home/tanmay/grep/restServer/restServer.js",
+		"/home/tanmay/grep/restAPI/roles/admin.js",
+		"/home/tanmay/grep/restAPI/roles/app.js",
+		"/home/tanmay/grep/restAPI/roles/dj.js",
+		"/home/tanmay/grep/restAPI/roles/pub.js",
+		"/home/tanmay/grep/restAPI/apiHandler.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/media/D/codebin/grep/node_modules/primus",
+			"/media/D/codebin/grep, -/media/D/codebin/grep/node*",
+			"/media/D/codebin/grep/node_modules/express",
+			"/media/D/codebin/grep, -/media/D/codebin/grep/node*",
+			"/media/D/codebin/grep",
+			"/media/D/codebin/grep, -/media/D/codebin/grep/node*",
+			"/media/D/codebin/grep",
+			"/media/D/codebin/grep, -/media/D/codebin/grep/node*",
+			"/media/D/codebin/grep",
+			"/media/D/codebin/grep/controllers",
+			"/media/D/codebin/grep",
+			"/media/D/codebin/grep, -/media/D/codebin/grep/node*",
+			"/media/D/codebin/grep/controllers,/media/D/codebin/grep/enums,/media/D/codebin/grep/logs,/media/D/codebin/grep/models,/media/D/codebin/grep/test",
+			"/media/D/codebin/grep/models",
+			"/media/D/codebin/grep/controllers",
+			"/media/D/codebin/grep, -/media/D/codebin/grep/node_*",
+			"/media/D/codebin/grep",
+			"/media/D/codebin/grep, -/media/D/codebin/grep/node*",
+			"/media/D/codebin/grep,-/media/D/codebin/grep/node*",
+			"/media/D/codebin/grep, -/media/D/codebin/node_modules/*",
+			"/media/D/codebin/grep",
+			"/media/D/codebin/grep/ -/media/D/codebin/grep/node_modules",
+			"/media/D/codebin/grep/,-/media/D/codebin/grep/node_modules",
+			"/media/D/codebin/grep/controllers",
+			"/media/D/codebin/grep/node_modules/mongoose/examples"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"di",
+			"Tanmays2",
+			"console.log",
+			"authorize",
+			"decode",
+			"authorize",
+			"	\n",
+			"pubI",
+			"Pub.findPlaylistBy",
+			"err",
+			"findOneAndUpdate",
+			"update",
+			"found",
+			"STATUS CODE",
+			"findPubById",
+			"postCall",
+			"token Ob",
+			"getOwnerToken",
+			" generating token for::",
+			" generating token for:: ",
+			"postCall",
+			"console.log(\"APIDOC Method: ",
+			"findByUsername",
+			"{\n",
+			";",
+			"Role.",
+			"token[",
+			"./logger",
+			"preProcess`",
+			"preProcess",
+			"preprocess",
+			"decode",
+			"getPubListByGeoTag",
+			"ret",
+			"updateSong",
+			"updateSongType",
+			"\\*+",
+			"APIDOC",
+			"song\\/[^\\/]{24}",
+			"playlist\\/[^\\/]{24}",
+			"pub\\/[^\\/]{24}",
+			"pub\\/[^\\/]+\\/",
+			"pub\\/[^\\/]{24}",
+			"APIDOC Method",
+			"Method",
+			"dj",
+			"updateSong",
+			"updateSongState",
+			"SongState",
+			"x-powered-by",
+			"getcall",
+			"request.body",
+			"JSON\\.stringify",
+			"JSON\\.stringify\\(\\s*\\w+\\s*\\)",
+			"JSON\\.stringify\\(\\w+\\)",
+			"JSON\\.stringify",
+			"JSON\\.stringify\\(\\s*(\\w)+\\s*\\);",
+			"JSON\\.stringify\\(\\s*\\w+\\s*\\);",
+			"JSON.stringify\\(\\s*\\w+\\s*\\);",
+			"JSON.stringify\\(\\w+\\);",
+			"JSON.stringify",
+			"JSON.stringify(",
+			"console",
+			"logger.info(",
+			"logger.info(playlist",
+			"logger",
+			"create",
+			"save",
+			"err.stack",
+			"err\\s?\\);",
+			"err);",
+			"logger\\.\\w+\\(\\\"[^\\\"]*\\\",\\s?e(rr)?\\)\\;",
+			"err.stack",
+			"logger.error",
+			"logger\\.\\w+\\(\\\"[^\\\"]*\\\",e(rr)?\\)\\;",
+			"logger\\.error\\(\\\"[^\\\"]*\\\",err\\)\\;",
+			"logger\\.error\\(\\\"[^\\\"]\\\",err\\)\\;",
+			"logger\\.error\\(\\\"[^\\\"]\\\",err);",
+			"logger[^\\\"]",
+			"logger[^\\\"]*err\\);",
+			"logger.*err\\);",
+			"logger(\\.*)err);",
+			"^logger.*err);",
+			"err);",
+			"logger",
+			"logger.info",
+			"logger.",
+			"logger",
+			"ogger",
+			"crea",
+			"add",
+			"addPlaylist",
+			"createPlaylist",
+			"saved song",
+			"completed",
+			"Updated pub",
+			"addPlaylist",
+			"pub updated",
+			"logger.[\\w]+",
+			"console.error",
+			"console.log",
+			"song Updated",
+			"updatePlaylistById",
+			"preProcess",
+			"updatePlaylistById",
+			"findPlaylistById",
+			"testCall",
+			"addPlaylist",
+			"create",
+			"findPlaylistById",
+			"getac",
+			"playlist",
+			"getCurrentPlaylist",
+			"getC",
+			"getc",
+			"getCurrentPlaylist",
+			"getActivePlaylist",
+			"getpl",
+			"playlist",
+			"findPlaylistById",
+			"getpla",
+			"cre",
+			"findPlaylistById",
+			"}\n",
+			"logger",
+			"logger = require('./logger')",
+			"postCall",
+			"verifyUser"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"./util/logger",
+			"err.stack.split(\"\\n\")",
+			"logger.error",
+			"logger.info",
+			"console.log",
+			"logger.info"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "machine-learning-ex2/ex2/costFunction.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								291
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "machine-learning-ex2/ex2/plotData.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "machine-learning-ex2/ex2/ex2_reg.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								720,
+								720
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "machine-learning-ex2/ex2/costFunctionReg.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								960,
+								960
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "ml.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"costfunctionreg",
+				"machine-learning-ex2/ex2/costFunctionReg.m"
+			],
+			[
+				"pred",
+				"machine-learning-ex2/ex2/predict.m"
+			],
+			[
+				"predic",
+				"machine-learning-ex2/ex2/predict.m"
+			],
+			[
+				"da",
+				"machine-learning-ex2/ex2/ex2data1.txt"
+			],
+			[
+				"plotde",
+				"machine-learning-ex2/ex2/plotDecisionBoundary.m"
+			],
+			[
+				"si",
+				"machine-learning-ex2/ex2/sigmoid.m"
+			],
+			[
+				"sigm",
+				"machine-learning-ex2/ex2/sigmoid.m"
+			],
+			[
+				"sigmo",
+				"machine-learning-ex2/ex2/sigmoid.m"
+			],
+			[
+				"norma",
+				"assignments/machine-learning-ex1/ex1/normalEqn.m"
+			],
+			[
+				"secur",
+				"grep/controllers/security.js"
+			],
+			[
+				"dj",
+				"grep/controllers/dj.js"
+			],
+			[
+				"apihan",
+				"grep/lib/apiHandler.js"
+			],
+			[
+				"securit",
+				"grep/controllers/security.js"
+			],
+			[
+				"error",
+				"grep/util/Errors.js"
+			],
+			[
+				"securi",
+				"grep/controllers/security.js"
+			],
+			[
+				"apiha",
+				"grep/lib/apiHandler.js"
+			],
+			[
+				"secu",
+				"grep/controllers/security.js"
+			],
+			[
+				"getcurr",
+				"node_modules/mongodb/lib/aggregation_cursor.js"
+			],
+			[
+				"testc",
+				"testClient.js"
+			],
+			[
+				"songs",
+				"enums/SongState.js"
+			],
+			[
+				"songsta",
+				"enums/SongState.js"
+			],
+			[
+				"app",
+				"controllers/app.js"
+			],
+			[
+				"test",
+				"testClient.js"
+			],
+			[
+				"pub",
+				"models/Pub.js"
+			],
+			[
+				"pla",
+				"models/Playlist.js"
+			],
+			[
+				"son",
+				"models/Song.js"
+			],
+			[
+				"play",
+				"models/Playlist.js"
+			],
+			[
+				"owner",
+				"controllers/owner.js"
+			],
+			[
+				"tes",
+				"testClient.js"
+			],
+			[
+				"err",
+				"util/Errors.js"
+			],
+			[
+				"api",
+				"apiHandler.js"
+			],
+			[
+				"server.js",
+				"server.js"
+			],
+			[
+				"apido",
+				"APIDOC"
+			],
+			[
+				"security",
+				"security.js"
+			],
+			[
+				"sec",
+				"security.js"
+			],
+			[
+				"song",
+				"enums/SongState.js"
+			],
+			[
+				"apu",
+				"node_modules/jsonwebtoken/test/rsa-public.pem"
+			],
+			[
+				"pl",
+				"models/Playlist.js"
+			],
+			[
+				"user",
+				"models/User.js"
+			],
+			[
+				"own",
+				"controllers/owner.js"
+			],
+			[
+				"pu",
+				"models/Pub.js"
+			],
+			[
+				"us",
+				"models/User.js"
+			],
+			[
+				"admi",
+				"controllers/admin.js"
+			],
+			[
+				"se",
+				"security.js"
+			],
+			[
+				"use",
+				"models/User.js"
+			],
+			[
+				"so",
+				"models/Song.js"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"doc",
+				"DOC"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"server",
+				"server.js"
+			],
+			[
+				"songty",
+				"enums/SongType.js"
+			],
+			[
+				"songst",
+				"enums/SongState.js"
+			],
+			[
+				"playl",
+				"enums/PlaylistState.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"getCall",
+				"getCalls: function ()"
+			]
+		],
+		"width": 538.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
