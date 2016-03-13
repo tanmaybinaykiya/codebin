@@ -4,8 +4,92 @@
 		"selected_items":
 		[
 			[
+				"ref",
+				"regularizationFactor1"
+			],
+			[
+				"The",
+				"Theta1"
+			],
+			[
+				"del",
+				"delta3"
+			],
+			[
+				"de",
+				"del_1"
+			],
+			[
+				"a",
+				"a1"
+			],
+			[
+				"si",
+				"size"
+			],
+			[
+				"Thet",
+				"Theta2"
+			],
+			[
+				"z",
+				"z2"
+			],
+			[
+				"y",
+				"yVectorized"
+			],
+			[
+				"sig",
+				"sigmoidZ"
+			],
+			[
 				"reg",
-				"regularizationParam"
+				"regTheta1"
+			],
+			[
+				"la",
+				"lambda"
+			],
+			[
+				"th",
+				"Theta2"
+			],
+			[
+				"Th",
+				"Theta1"
+			],
+			[
+				"the",
+				"Theta1"
+			],
+			[
+				"max",
+				"maxMat"
+			],
+			[
+				"ra",
+				"rand_indices"
+			],
+			[
+				"nu",
+				"num_labels"
+			],
+			[
+				"all",
+				"all_theta"
+			],
+			[
+				"in",
+				"initial_theta"
+			],
+			[
+				"J",
+				"JUnregularizationFactor"
+			],
+			[
+				"regular",
+				"regularization"
 			],
 			[
 				"regul",
@@ -32,24 +116,8 @@
 				"e	exp"
 			],
 			[
-				"in",
-				"interm"
-			],
-			[
 				"J_",
 				"J_history"
-			],
-			[
-				"J",
-				"J_history"
-			],
-			[
-				"the",
-				"theta"
-			],
-			[
-				"th",
-				"theta"
 			],
 			[
 				"s",
@@ -384,34 +452,18 @@
 	"buffers":
 	[
 		{
-			"file": "machine-learning-ex2/ex2/costFunction.m",
+			"file": "machine-learning-ex4/ex4/nnCostFunction.m",
 			"settings":
 			{
-				"buffer_size": 427,
+				"buffer_size": 2497,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "machine-learning-ex2/ex2/plotData.m",
+			"file": "machine-learning-ex4/ex4/ex4.m",
 			"settings":
 			{
-				"buffer_size": 233,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "machine-learning-ex2/ex2/ex2_reg.m",
-			"settings":
-			{
-				"buffer_size": 2973,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "machine-learning-ex2/ex2/costFunctionReg.m",
-			"settings":
-			{
-				"buffer_size": 1193,
+				"buffer_size": 8075,
 				"line_ending": "Unix"
 			}
 		}
@@ -462,12 +514,36 @@
 	"expanded_folders":
 	[
 		"/media/D/codebin/github/codebin/ML",
-		"/media/D/codebin/github/codebin/ML/ex1- completed",
-		"/media/D/codebin/github/codebin/ML/machine-learning-ex2",
-		"/media/D/codebin/github/codebin/ML/machine-learning-ex2/ex2"
+		"/media/D/codebin/github/codebin/ML/ex3-completed",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex4",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex4/ex4"
 	],
 	"file_history":
 	[
+		"/media/D/codebin/github/codebin/ML/ex3-completed/predict.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex4/ex4/test.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex4/ex4/sigmoidGradient.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex4/ex4/randInitializeWeights.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex4/ex4/predict.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex4/ex4/ex4.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex3/ex3/predict.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex3/ex3/ex3_nn.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex3/ex3/lrCostFunction.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex3/ex3/ex3.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex3/ex3/oneVsAll.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex3/ex3/predictOneVsAll.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex3/ex3/fmincg.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex3/ex3/testm.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex3/ex3/sigmoid.m",
+		"/media/D/codebin/github/codebin/ML/ex3-/submit.m",
+		"/media/D/codebin/github/codebin/ML/ex3-/lrCostFunction.m",
+		"/media/D/codebin/github/codebin/ML/ex2-completed/ex2_reg.m",
+		"/media/D/codebin/github/codebin/ML/ex3-/sigmoid.m",
+		"/home/tanmay/android-sdk-linux/SDK Readme.txt",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex2/ex2/ex2_reg.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex2/ex2/plotData.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex2/ex2/costFunction.m",
+		"/media/D/codebin/github/codebin/ML/machine-learning-ex2/ex2/costFunctionReg.m",
 		"/media/D/codebin/github/codebin/ML/machine-learning-ex2/ex2/ex2.m",
 		"/media/D/codebin/github/codebin/ML/machine-learning-ex2/ex2/predict.m",
 		"/media/D/codebin/github/codebin/ML/machine-learning-ex2/ex2/plotDecisionBoundary.m",
@@ -605,6 +681,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Iteration",
+			"iteration",
+			"lrc",
 			"di",
 			"Tanmays2",
 			"console.log",
@@ -729,10 +808,7 @@
 			"cre",
 			"findPlaylistById",
 			"}\n",
-			"logger",
-			"logger = require('./logger')",
-			"postCall",
-			"verifyUser"
+			"logger"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -756,24 +832,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "machine-learning-ex2/ex2/costFunction.m",
+					"file": "machine-learning-ex4/ex4/nnCostFunction.m",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 427,
+						"buffer_size": 2497,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								291,
-								291
+								799,
+								799
 							]
 						],
 						"settings":
@@ -782,90 +858,36 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "machine-learning-ex2/ex2/plotData.m",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 233,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								233,
-								233
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Matlab/Matlab.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "machine-learning-ex2/ex2/ex2_reg.m",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2973,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								720,
-								720
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Matlab/Matlab.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 51.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "machine-learning-ex2/ex2/costFunctionReg.m",
-					"semi_transient": false,
+					"buffer": 1,
+					"file": "machine-learning-ex4/ex4/ex4.m",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1193,
+						"buffer_size": 8075,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								960,
-								960
+								5476,
+								5476
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Matlab/Matlab.tmLanguage"
+							"syntax": "Packages/Matlab/Matlab.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2970.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -931,6 +953,18 @@
 		"selected_items":
 		[
 			[
+				"pre",
+				"machine-learning-ex3/ex3/predictOneVsAll.m"
+			],
+			[
+				"tes",
+				"machine-learning-ex3/ex3/testm.m"
+			],
+			[
+				"sigm",
+				"machine-learning-ex3/ex3/sigmoid.m"
+			],
+			[
 				"costfunctionreg",
 				"machine-learning-ex2/ex2/costFunctionReg.m"
 			],
@@ -952,10 +986,6 @@
 			],
 			[
 				"si",
-				"machine-learning-ex2/ex2/sigmoid.m"
-			],
-			[
-				"sigm",
 				"machine-learning-ex2/ex2/sigmoid.m"
 			],
 			[
@@ -1041,10 +1071,6 @@
 			[
 				"owner",
 				"controllers/owner.js"
-			],
-			[
-				"tes",
-				"testClient.js"
 			],
 			[
 				"err",
@@ -1147,12 +1173,12 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
